@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Práctica de vocabulario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f3f3f3;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .flashcard {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 40px 50px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      width: min(90vw, 480px);
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .word {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+
+    button {
+      cursor: pointer;
+      border-radius: 999px;
+      border: none;
+      padding: 0.6rem 1.4rem;
+      font-size: 1rem;
+      font-weight: 500;
+      background: #222;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.2s;
+    }
+
+    button.secondary {
+      background: #666;
+    }
+
+    button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+    }
+
+    button:active {
+      transform: translateY(0);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+    }
+
+    .solution {
+      display: none;
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+    }
+
+    .solution-line {
+      margin: 0.3rem 0;
+    }
+
+    .article {
+      font-weight: 700;
+      text-transform: lowercase;
+    }
+
+    .translation {
+      font-style: italic;
+    }
+
+    .counter {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="flashcard" id="card">
+    <div class="word" id="word">Palabra</div>
+
+    <div class="buttons">
+      <button id="show-btn">Mostrar solución</button>
+      <button id="next-btn" class="secondary">Siguiente palabra</button>
+    </div>
+
+    <div class="solution" id="solution">
+      <p class="solution-line">
+        Artículo: <span class="article" id="article"></span>
+      </p>
+      <p class="solution-line">
+        Traducción: <span class="translation" id="translation"></span>
+      </p>
+    </div>
+
+    <div class="counter" id="counter"></div>
+  </div>
+
+  <script>
+    // Lista de palabras: puedes editar, añadir o quitar
+    const words = [
+      { word: "Tisch", article: "der", translation: "mesa" },
+      { word: "Blume", article: "die", translation: "flor" },
+      { word: "Kind", article: "das", translation: "niño / niña" },
+      { word: "Hund", article: "der", translation: "perro" },
+      { word: "Zeitung", article: "die", translation: "periódico" },
+      { word: "Buch", article: "das", translation: "libro" }
+    ];
+
+    // Colores asociados a cada artículo
+    const articleColors = {
+      der: "#cce5ff",   // azul claro
+      die: "#ffd6e7",   // rosa claro
+      das: "#d5f5e3"    // verde claro
+      // añade más si usas otros artículos
+    };
+
+    const card = document.getElementById("card");
+    const wordElem = document.getElementById("word");
+    const solutionElem = document.getElementById("solution");
+    const articleElem = document.getElementById("article");
+    const translationElem = document.getElementById("translation");
+    const counterElem = document.getElementById("counter");
+
+    const showBtn = document.getElementById("show-btn");
+    const nextBtn = document.getElementById("next-btn");
+
+    let currentIndex = 0;
+
+    function renderCard(index) {
+      const item = words[index];
+
+      wordElem.textContent = item.word;
+      articleElem.textContent = item.article;
+      translationElem.textContent = item.translation;
+
+      // Ocultamos la solución y restauramos color base
+      solutionElem.style.display = "none";
+      card.style.backgroundColor = "#ffffff";
+
+      // Actualizamos contador
+      counterElem.textContent = `Palabra ${index + 1} de ${words.length}`;
+    }
+
+    function showSolution() {
+      const item = words[currentIndex];
+      solutionElem.style.display = "block";
+
+      // Cambiamos el color según el artículo
+      const color = articleColors[item.article] || "#fff3cd"; // color por defecto si no está definido
+      card.style.backgroundColor = color;
+    }
+
+    function nextWord() {
+      currentIndex = (currentIndex + 1) % words.length; // avanza y vuelve al principio al final
+      renderCard(currentIndex);
+    }
+
+    showBtn.addEventListener("click", showSolution);
+    nextBtn.addEventListener("click", nextWord);
+
+    // Inicializamos la primera tarjeta
+    renderCard(currentIndex);
+  </script>
+</body>
+</html>
