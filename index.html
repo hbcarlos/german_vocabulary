@@ -19,12 +19,36 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
+    .container {
+      width: min(95vw, 600px);
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      justify-content: center;
+    }
+
+    .toolbar input[type="text"] {
+      flex: 1 1 220px;
+      padding: 0.5rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid #ccc;
+      font-size: 0.95rem;
+      outline: none;
+    }
+
+    .toolbar input[type="text"]:focus {
+      border-color: #222;
+    }
+
     .flashcard {
       background: #ffffff;
       border-radius: 18px;
       padding: 40px 50px;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-      width: min(90vw, 480px);
       text-align: center;
       transition: background-color 0.3s ease;
     }
@@ -53,11 +77,16 @@
       background: #222;
       color: white;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.2s;
+      transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.2s, background-color 0.2s;
+      white-space: nowrap;
     }
 
     button.secondary {
       background: #666;
+    }
+
+    button.secondary.active {
+      background: #007bff;
     }
 
     button:hover {
@@ -97,24 +126,39 @@
   </style>
 </head>
 <body>
-  <div class="flashcard" id="card">
-    <div class="word" id="word">Palabra</div>
-
-    <div class="buttons">
-      <button id="show-btn">Mostrar solución</button>
-      <button id="next-btn" class="secondary">Siguiente palabra</button>
+  <div class="container">
+    <!-- Barra superior: búsqueda + random -->
+    <div class="toolbar">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Buscar por palabra o traducción..."
+        autocomplete="off"
+      />
+      <button id="search-btn">Buscar</button>
+      <button id="random-btn" class="secondary">Random: OFF</button>
     </div>
 
-    <div class="solution" id="solution">
-      <p class="solution-line">
-        Artículo: <span class="article" id="article"></span>
-      </p>
-      <p class="solution-line">
-        Traducción: <span class="translation" id="translation"></span>
-      </p>
-    </div>
+    <!-- Tarjeta de vocabulario -->
+    <div class="flashcard" id="card">
+      <div class="word" id="word">Palabra</div>
 
-    <div class="counter" id="counter"></div>
+      <div class="buttons">
+        <button id="show-btn">Mostrar solución</button>
+        <button id="next-btn" class="secondary">Siguiente palabra</button>
+      </div>
+
+      <div class="solution" id="solution">
+        <p class="solution-line">
+          Artículo: <span class="article" id="article"></span>
+        </p>
+        <p class="solution-line">
+          Traducción: <span class="translation" id="translation"></span>
+        </p>
+      </div>
+
+      <div class="counter" id="counter"></div>
+    </div>
   </div>
 
   <script>
@@ -146,7 +190,12 @@
     const showBtn = document.getElementById("show-btn");
     const nextBtn = document.getElementById("next-btn");
 
+    const searchInput = document.getElementById("search-input");
+    const searchBtn = document.getElementById("search-btn");
+    const randomBtn = document.getElementById("random-btn");
+
     let currentIndex = 0;
+    let randomMode = false;
 
     function renderCard(index) {
       const item = words[index];
@@ -168,17 +217,65 @@
       solutionElem.style.display = "block";
 
       // Cambiamos el color según el artículo
-      const color = articleColors[item.article] || "#fff3cd"; // color por defecto si no está definido
+      const color = articleColors[item.article] || "#fff3cd"; // color por defecto
       card.style.backgroundColor = color;
     }
 
     function nextWord() {
-      currentIndex = (currentIndex + 1) % words.length; // avanza y vuelve al principio al final
+      if (randomMode) {
+        let newIndex = currentIndex;
+        if (words.length > 1) {
+          // Aseguramos que no se repita la misma palabra si hay más de una
+          while (newIndex === currentIndex) {
+            newIndex = Math.floor(Math.random() * words.length);
+          }
+        }
+        currentIndex = newIndex;
+      } else {
+        currentIndex = (currentIndex + 1) % words.length;
+      }
       renderCard(currentIndex);
+    }
+
+    function setRandomMode(on) {
+      randomMode = on;
+      randomBtn.textContent = randomMode ? "Random: ON" : "Random: OFF";
+      randomBtn.classList.toggle("active", randomMode);
+    }
+
+    function searchWord() {
+      const query = searchInput.value.trim().toLowerCase();
+      if (!query) return;
+
+      const foundIndex = words.findIndex(item =>
+        item.word.toLowerCase().includes(query) ||
+        item.translation.toLowerCase().includes(query)
+      );
+
+      if (foundIndex === -1) {
+        alert("No se encontró ninguna palabra que coincida.");
+        return;
+      }
+
+      currentIndex = foundIndex;
+      renderCard(currentIndex);
+      // Como se busca el significado, mostramos directamente la solución
+      showSolution();
     }
 
     showBtn.addEventListener("click", showSolution);
     nextBtn.addEventListener("click", nextWord);
+
+    searchBtn.addEventListener("click", searchWord);
+    searchInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        searchWord();
+      }
+    });
+
+    randomBtn.addEventListener("click", () => {
+      setRandomMode(!randomMode);
+    });
 
     // Inicializamos la primera tarjeta
     renderCard(currentIndex);
