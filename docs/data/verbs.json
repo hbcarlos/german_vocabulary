@@ -1,0 +1,43 @@
+[
+	{ "word": "heißen", "translation": "llamarse" },
+	{ "word": "sein", "translation": "ser" },
+	{ "word": "haben", "translation": "tener" },
+	{ "word": "wohnen", "translation": "vivir" },
+	{ "word": "kommen", "translation": "venir" },
+	{ "word": "gern", "translation": "con gusto, de buena gana" },
+	{ "word": "gehen", "translation": "ir, caminar" },
+	{ "word": "lernen", "translation": "aprender" },
+	{ "word": "sprechen", "translation": "hablar" },
+	{ "word": "sehen", "translation": "ver" },
+
+	{ "word": "buchstabieren", "translation": "deletrear" },
+	{ "word": "fragen", "translation": "preguntar" },
+	{ "word": "hören", "translation": "escuchar, oír" },
+	{ "word": "lesen", "translation": "leer" },
+	{ "word": "machen", "translation": "hacer" },
+	{ "word": "notieren", "translation": "anotar" },
+	{ "word": "raten", "translation": "adivinar" },
+	{ "word": "sagen", "translation": "decir" },
+	{ "word": "sammeln", "translation": "coleccionar, reunir" },
+	{ "word": "schreiben", "translation": "escribir" },
+	{ "word": "spielen", "translation": "jugar" },
+	{ "word": "zuordnen", "translation": "relacionar, emparejar" },
+
+	{ "word": "arbeiten", "translation": "trabajar" },
+	{ "word": "Tennis spielen", "translation": "jugar al tenis" },
+	{ "word": "joggen", "translation": "correr, hacer footing" },
+	{ "word": "schwimmen", "translation": "nadar" },
+	{ "word": "fotografieren", "translation": "fotografiar" },
+	{ "word": "kochen", "translation": "cocinar" },
+	{ "word": "reisen", "translation": "viajar" },
+	{ "word": "singen", "translation": "cantar" },
+	{ "word": "tanzen", "translation": "bailar" },
+	
+	{ "word": "passen", "translation": "quedar bien, encajar" },
+	{ "word": "suchen", "translation": "buscar" },
+	{ "word": "warten", "translation": "esperar" },
+
+	{ "word": "zeigen", "translation": "mostrar, indicar" },
+	{ "word": "zeichnen", "translation": "dibujar" },
+	{ "word": "finden", "translation": "encontrar; opinar" }
+]

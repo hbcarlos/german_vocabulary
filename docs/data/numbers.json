@@ -1,0 +1,23 @@
+[
+	{ "word": "null", "translation": "cero" },
+	{ "word": "eins", "translation": "uno" },
+	{ "word": "zwei", "translation": "dos" },
+	{ "word": "drei", "translation": "tres" },
+	{ "word": "vier", "translation": "cuatro" },
+	{ "word": "fünf", "translation": "cinco" },
+	{ "word": "sechs", "translation": "seis" },
+	{ "word": "sieben", "translation": "siete" },
+	{ "word": "acht", "translation": "ocho" },
+	{ "word": "neun", "translation": "nueve" },
+	{ "word": "zehn", "translation": "diez" },
+	{ "word": "elf", "translation": "once" },
+	{ "word": "zwölf", "translation": "doce" },
+	{ "word": "dreizehn", "translation": "trece" },
+	{ "word": "vierzehn", "translation": "catorce" },
+	{ "word": "fünfzehn", "translation": "quince" },
+	{ "word": "sechzehn", "translation": "dieciséis" },
+	{ "word": "siebzehn", "translation": "diecisiete" },
+	{ "word": "achtzehn", "translation": "dieciocho" },
+	{ "word": "neunzehn", "translation": "diecinueve" },
+	{ "word": "zwanzig", "translation": "veinte" }
+]

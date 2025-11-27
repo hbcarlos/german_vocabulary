@@ -1,0 +1,21 @@
+[
+	{ "word": "alt", "translation": "viejo, mayor (edad)" },
+	{ "word": "männlich", "translation": "masculino" },
+	{ "word": "weiblich", "translation": "femenino" },
+	{ "word": "groß", "translation": "grande, alto (persona)" },
+	{ "word": "lustig", "translation": "divertido" },
+	{ "word": "neu", "translation": "nuevo" },
+	{ "word": "super", "translation": "genial" },
+	{ "word": "toll", "translation": "estupendo, guay" },
+	{ "word": "viel", "translation": "mucho" },
+	{ "word": "wirklich", "translation": "realmente, de verdad" },
+
+	{ "word": "interessant", "translation": "interesante" },
+	{ "word": "schön", "translation": "bonito, bonito/a" },
+	{ "word": "lang", "translation": "largo" },
+	{ "word": "breit", "translation": "ancho" },
+	{ "word": "hoch", "translation": "alto (de altura)" },
+	{ "word": "schnell", "translation": "rápido" },
+
+	{ "word": "richtig", "translation": "correcto" }
+]

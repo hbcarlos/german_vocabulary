@@ -1,0 +1,52 @@
+[
+	{ "word": "Hallo!", "translation": "¡Hola!" },
+	{ "word": "Guten Morgen.", "translation": "Buenos días (por la mañana)." },
+	{ "word": "Guten Tag.", "translation": "Buenas tardes / buen día." },
+	{ "word": "Guten Abend.", "translation": "Buenas tardes / buenas noches (al anochecer)." },
+	{ "word": "Gute Nacht.", "translation": "Buenas noches." },
+	{ "word": "Tschüs.", "translation": "Adiós / chao." },
+	{ "word": "Ciao.", "translation": "Chao." },
+	{ "word": "Bis bald!", "translation": "¡Hasta pronto!" },
+	{ "word": "Auf Wiedersehen.", "translation": "Adiós / hasta la vista." },
+
+	{ "word": "Wie geht's?", "translation": "¿Cómo estás?" },
+	{ "word": "Sehr gut.", "translation": "Muy bien." },
+	{ "word": "Danke, gut.", "translation": "Bien, gracias." },
+	{ "word": "Ganz gut.", "translation": "Bastante bien." },
+	{ "word": "Das ist Herr/Frau ...", "translation": "Este es el señor / la señora ..." },
+	{ "word": "Entschuldigung, noch einmal, bitte.", "translation": "Perdón, otra vez, por favor." },
+	{ "word": "Wie bitte?", "translation": "¿Cómo? / ¿Perdón?" },
+	{ "word": "Das verstehe ich nicht.", "translation": "No lo entiendo." },
+	{ "word": "Bitte ein bisschen langsamer.", "translation": "Por favor, un poco más despacio." },
+	{ "word": "Welche Sprachen sprechen Sie?", "translation": "¿Qué idiomas habla usted?" },
+
+
+
+	{ "word": "Was sind Sie von Beruf?", "translation": "¿Cuál es su profesión?" },
+	{ "word": "im Moment", "translation": "en este momento" },
+	{ "word": "pro Woche", "translation": "por semana" },
+	{ "word": "morgen", "translation": "mañana" },
+	{ "word": "nachts", "translation": "por la noche" },
+	{ "word": "meistens", "translation": "la mayoría de las veces, generalmente" },
+	{ "word": "noch", "translation": "todavía, aún" },
+
+	{ "word": "Ich bin ... Jahre alt.", "translation": "Tengo ... años." },
+	{ "word": "Ich schwimme gern.", "translation": "Me gusta nadar." },
+	{ "word": "frei haben, er hat frei", "translation": "tener libre, él tiene libre" },
+	{ "word": "Es geht so.", "translation": "Así así / tirando." },
+	{ "word": "leider", "translation": "por desgracia" },
+	{ "word": "Das geht leider nicht.", "translation": "Por desgracia, eso no es posible." },
+
+
+	
+	{ "word": "Das ist ...", "translation": "Esto es ..." },
+	{ "word": "zu Fuß gehen", "translation": "ir a pie" },
+	{ "word": "Wo ist bitte ...?", "translation": "¿Dónde está ... por favor?" },
+	{ "word": "Das ist ganz einfach.", "translation": "Es muy fácil." },
+	{ "word": "Gehen Sie zuerst rechts und dann geradeaus.", "translation": "Vaya primero a la derecha y luego todo recto." },
+	{ "word": "Findest du das Konzert gut?", "translation": "¿Te gusta el concierto?" },
+	{ "word": "ein Mal, zwei Mal, ...", "translation": "una vez, dos veces, ..." },
+	{ "word": "das erste/zweite/... Mal", "translation": "la primera/segunda/... vez" },
+	{ "word": "Vielen Dank!", "translation": "¡Muchas gracias!" },
+	{ "word": "okay", "translation": "vale, bien" }
+]

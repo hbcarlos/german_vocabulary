@@ -1,0 +1,17 @@
+[
+	{ "word": "ich", "translation": "yo" },
+	{ "word": "du", "translation": "tú" },
+	{ "word": "er/sie/es", "translation": "él/ella/ello" },
+	
+	{ "word": "wir", "translation": "nosotros" },
+	{ "word": "ihr", "translation": "vosotros" },
+	{ "word": "sie", "translation": "ellos" },
+	{ "word": "Sie", "translation": "usted/ustedes" },
+
+	{ "word": "mein", "translation": "mi/mio" },
+	{ "word": "dein", "translation": "tu/tuyo" },
+
+
+	
+	{ "word": "alle", "translation": "todos, todas" }
+]

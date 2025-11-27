@@ -1,0 +1,387 @@
+[
+	{
+		"word": "ab",
+		"cases": ["Dativ"],
+		"translation": "desde (momento en el tiempo)"
+	},
+	{
+		"word": "an",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "a, en, junto a"
+	},
+	{
+		"word": "anhand",
+		"cases": ["Genitiv"],
+		"translation": "a base de, mediante"
+	},
+	{
+		"word": "anlässlich",
+		"cases": ["Genitiv"],
+		"translation": "con motivo de"
+	},
+	{
+		"word": "anstatt",
+		"cases": ["Genitiv"],
+		"translation": "en lugar de"
+	},
+	{
+		"word": "auf",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "sobre, en, encima de"
+	},
+	{
+		"word": "aufgrund",
+		"cases": ["Genitiv"],
+		"translation": "debido a"
+	},
+	{
+		"word": "aus",
+		"cases": ["Dativ"],
+		"translation": "de, desde (procedencia, interior)"
+	},
+	{
+		"word": "außer",
+		"cases": ["Dativ"],
+		"translation": "excepto, salvo"
+	},
+	{
+		"word": "außerhalb",
+		"cases": ["Genitiv"],
+		"translation": "fuera de"
+	},
+	{
+		"word": "bei",
+		"cases": ["Dativ"],
+		"translation": "en, cerca de, en casa de"
+	},
+	{
+		"word": "bis",
+		"cases": ["Akkusativ"],
+		"translation": "hasta"
+	},
+	{
+		"word": "dank",
+		"cases": ["Dativ", "Genitiv"],
+		"translation": "gracias a"
+	},
+	{
+		"word": "diesseits",
+		"cases": ["Genitiv"],
+		"translation": "a este lado de"
+	},
+	{
+		"word": "durch",
+		"cases": ["Akkusativ"],
+		"translation": "por, a través de"
+	},
+	{
+		"word": "entgegen",
+		"cases": ["Dativ"],
+		"translation": "en contra de, al encuentro de"
+	},
+	{
+		"word": "entlang",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "a lo largo de"
+	},
+	{
+		"word": "entsprechend",
+		"cases": ["Dativ"],
+		"translation": "de acuerdo con, conforme a"
+	},
+	{
+		"word": "für",
+		"cases": ["Akkusativ"],
+		"translation": "para, por"
+	},
+	{
+		"word": "gegen",
+		"cases": ["Akkusativ"],
+		"translation": "contra, hacia (aprox. en el tiempo)"
+	},
+	{
+		"word": "gemäß",
+		"cases": ["Dativ"],
+		"translation": "conforme a, según"
+	},
+	{
+		"word": "hinter",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "detrás de"
+	},
+	{
+		"word": "in",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "en, dentro de, a"
+	},
+	{
+		"word": "innerhalb",
+		"cases": ["Genitiv"],
+		"translation": "dentro de"
+	},
+	{
+		"word": "jenseits",
+		"cases": ["Genitiv"],
+		"translation": "al otro lado de"
+	},
+	{
+		"word": "längs",
+		"cases": ["Genitiv", "Dativ"],
+		"translation": "a lo largo de"
+	},
+	{
+		"word": "laut",
+		"cases": ["Genitiv", "Dativ"],
+		"translation": "según, de acuerdo con"
+	},
+	{
+		"word": "mit",
+		"cases": ["Dativ"],
+		"translation": "con"
+	},
+	{
+		"word": "mitsamt",
+		"cases": ["Dativ"],
+		"translation": "junto con"
+	},
+	{
+		"word": "nach",
+		"cases": ["Dativ"],
+		"translation": "hacia (lugar), después de, según"
+	},
+	{
+		"word": "nahe",
+		"cases": ["Dativ"],
+		"translation": "cerca de"
+	},
+	{
+		"word": "neben",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "al lado de"
+	},
+	{
+		"word": "oberhalb",
+		"cases": ["Genitiv"],
+		"translation": "por encima de"
+	},
+	{
+		"word": "ohne",
+		"cases": ["Akkusativ"],
+		"translation": "sin"
+	},
+	{
+		"word": "seit",
+		"cases": ["Dativ"],
+		"translation": "desde (hace, en el tiempo)"
+	},
+	{
+		"word": "samt",
+		"cases": ["Dativ"],
+		"translation": "junto con"
+	},
+	{
+		"word": "statt",
+		"cases": ["Genitiv"],
+		"translation": "en vez de"
+	},
+	{
+		"word": "trotz",
+		"cases": ["Genitiv"],
+		"translation": "a pesar de"
+	},
+	{
+		"word": "über",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "sobre, más de, por encima de, acerca de"
+	},
+	{
+		"word": "um",
+		"cases": ["Akkusativ"],
+		"translation": "alrededor de, a (la hora)"
+	},
+	{
+		"word": "unter",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "debajo de, entre (varios)"
+	},
+	{
+		"word": "unterhalb",
+		"cases": ["Genitiv"],
+		"translation": "por debajo de"
+	},
+	{
+		"word": "unweit",
+		"cases": ["Genitiv"],
+		"translation": "no lejos de"
+	},
+	{
+		"word": "von",
+		"cases": ["Dativ"],
+		"translation": "de, desde, por (voz pasiva)"
+	},
+	{
+		"word": "vor",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "delante de, antes de"
+	},
+	{
+		"word": "während",
+		"cases": ["Genitiv"],
+		"translation": "durante, mientras"
+	},
+	{
+		"word": "wegen",
+		"cases": ["Genitiv"],
+		"translation": "a causa de, por"
+	},
+	{
+		"word": "wider",
+		"cases": ["Akkusativ"],
+		"translation": "contra (formal/literario)"
+	},
+	{
+		"word": "zu",
+		"cases": ["Dativ"],
+		"translation": "a, hacia, en"
+	},
+	{
+		"word": "zuliebe",
+		"cases": ["Dativ"],
+		"translation": "por (consideración a alguien)"
+	},
+	{
+		"word": "zwischen",
+		"cases": ["Akkusativ", "Dativ"],
+		"translation": "entre (dos o más)"
+	},
+	{
+		"word": "pro",
+		"cases": ["Akkusativ"],
+		"translation": "por, por cada (frecuencia, reparto)"
+	},
+	{
+		"word": "gegenüber",
+		"cases": ["Dativ"],
+		"translation": "enfrente de, frente a"
+	},
+	{
+		"word": "binnen",
+		"cases": ["Dativ", "Genitiv"],
+		"translation": "dentro de (un período de tiempo)"
+	},
+	{
+		"word": "nebst",
+		"cases": ["Dativ"],
+		"translation": "junto con, además de"
+	},
+	{
+		"word": "fern",
+		"cases": ["Genitiv"],
+		"translation": "lejos de"
+	},
+	{
+		"word": "abseits",
+		"cases": ["Genitiv"],
+		"translation": "al margen de, fuera de"
+	},
+	{
+		"word": "angesichts",
+		"cases": ["Genitiv"],
+		"translation": "ante, en vista de"
+	},
+	{
+		"word": "bezüglich",
+		"cases": ["Genitiv"],
+		"translation": "en relación a, respecto a"
+	},
+	{
+		"word": "hinsichtlich",
+		"cases": ["Genitiv"],
+		"translation": "en cuanto a, con respecto a"
+	},
+	{
+		"word": "infolge",
+		"cases": ["Genitiv"],
+		"translation": "a consecuencia de"
+	},
+	{
+		"word": "kraft",
+		"cases": ["Genitiv"],
+		"translation": "en virtud de"
+	},
+	{
+		"word": "mangels",
+		"cases": ["Genitiv"],
+		"translation": "a falta de"
+	},
+	{
+		"word": "seitens",
+		"cases": ["Genitiv"],
+		"translation": "por parte de"
+	},
+	{
+		"word": "unbeschadet",
+		"cases": ["Genitiv"],
+		"translation": "sin perjuicio de"
+	},
+	{
+		"word": "zwecks",
+		"cases": ["Genitiv"],
+		"translation": "con el fin de"
+	},
+	{
+		"word": "mittels",
+		"cases": ["Genitiv"],
+		"translation": "mediante, por medio de"
+	},
+	{
+		"word": "inklusive",
+		"cases": ["Genitiv"],
+		"translation": "incluido, incluyendo"
+	},
+	{
+		"word": "exklusive",
+		"cases": ["Genitiv"],
+		"translation": "excluido, sin incluir"
+	},
+	{
+		"word": "plus",
+		"cases": ["Akkusativ"],
+		"translation": "más, además de"
+	},
+	{
+		"word": "minus",
+		"cases": ["Akkusativ"],
+		"translation": "menos"
+	},
+	{
+		"word": "abzüglich",
+		"cases": ["Genitiv"],
+		"translation": "menos, descontando"
+	},
+	{
+		"word": "zuzüglich",
+		"cases": ["Genitiv"],
+		"translation": "más, además de (añadiendo)"
+	},
+	{
+		"word": "pro",
+		"cases": ["Akkusativ"],
+		"translation": "por, por cada (frecuencia, reparto)"
+	},
+	{
+		"word": "per",
+		"cases": ["Akkusativ"],
+		"translation": "por (por medio de, vía)"
+	},
+	{
+		"word": "via",
+		"cases": ["Akkusativ"],
+		"translation": "vía, por medio de"
+	},
+	{
+		"word": "kontra",
+		"cases": ["Akkusativ"],
+		"translation": "contra"
+	}
+]

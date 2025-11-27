@@ -1,0 +1,51 @@
+{
+	"questions": [
+		{ "word": "wie", "translation": "cómo" },
+		{ "word": "wer", "translation": "quién" },
+		{ "word": "wo", "translation": "dónde" },
+		{ "word": "woher", "translation": "de dónde" },
+		{ "word": "wann", "translation": "cuándo" }
+	],
+
+	"days": [
+		{ "word": "Montag", "translation": "lunes" },
+		{ "word": "Dienstag", "translation": "martes" },
+		{ "word": "Mittwoch", "translation": "miércoles" },
+		{ "word": "Donnerstag", "translation": "jueves" },
+		{ "word": "Freitag", "translation": "viernes" },
+		{ "word": "Samstag", "translation": "sábado" },
+		{ "word": "Sonntag", "translation": "domingo" }
+	],
+
+	"month": [
+		{ "word": "Januar", "article": "der", "translation": "enero" },
+		{ "word": "Februar", "article": "der", "translation": "febrero" },
+		{ "word": "März", "article": "der", "translation": "marzo" },
+		{ "word": "April", "article": "der", "translation": "abril" },
+		{ "word": "Mai", "article": "der", "translation": "mayo" },
+		{ "word": "Juni", "article": "der", "translation": "junio" },
+		{ "word": "Juli", "article": "der", "translation": "julio" },
+		{ "word": "August", "article": "der", "translation": "agosto" },
+		{ "word": "September", "article": "der", "translation": "septiembre" },
+		{ "word": "Oktober", "article": "der", "translation": "octubre" },
+		{ "word": "November", "article": "der", "translation": "noviembre" },
+		{ "word": "Dezember", "article": "der", "translation": "diciembre" }
+	],
+
+	"seasons": [
+		{ "word": "Frühling", "article": "der", "translation": "primavera" },
+		{ "word": "Sommer", "article": "der", "translation": "verano" },
+		{ "word": "Herbst", "article": "der", "translation": "otoño" },
+		{ "word": "Winter", "article": "der", "translation": "invierno" }
+	],
+
+	"countries": [
+		{ "word": "Deutschland", "article": "", "translation": "Alemania" },
+		{ "word": "Österreich", "article": "", "translation": "Austria" },
+		{ "word": "Die Schweiz", "article": "die", "translation": "Suiza" }
+	],
+
+	"languages": [
+		{ "word": "Deutsch", "translation": "alemán" }
+	]
+}

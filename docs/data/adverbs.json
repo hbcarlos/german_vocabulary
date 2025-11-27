@@ -1,0 +1,21 @@
+[
+	{ "word": "ja", "type": "Antwortadverb", "translation": "sí" },
+	{ "word": "nein", "type": "Antwortadverb", "translation": "no" },
+
+	{ "word": "hier", "type": "Adverb des Ortes", "translation": "aquí" },
+	{ "word": "da", "type": "Adverb des Ortes", "translation": "ahí, allí" },
+	{ "word": "rechts", "type": "Adverb des Ortes", "translation": "a la derecha" },
+	{ "word": "links", "type": "Adverb des Ortes", "translation": "a la izquierda" },
+	{ "word": "geradeaus", "type": "Adverb des Ortes", "translation": "todo recto" },
+	
+	{ "word": "heute", "type": "Zeitadverb", "translation": "hoy" },
+	{ "word": "jetzt", "type": "Zeitadverb", "translation": "ahora" },
+	{ "word": "schon", "type": "Zeitadverb", "translation": "ya" },
+
+	{ "word": "richtig", "type": "Gradadverb", "translation": "realmente/bastante bien" },
+	{ "word": "so", "type": "Gradadverb", "translation": "así, tan, tanto" },
+
+	{ "word": "also", "type": "Konjunktionaladverb", "translation": "entonces, pues" },
+	
+	{ "word": "genau", "type": "", "translation": "exactamente" }
+]
