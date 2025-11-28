@@ -19,12 +19,12 @@ async function loadNavbar() {
     // Añadir el CSS de la barra de navegación al <head>
     const navbarCSS = document.createElement('link');
     navbarCSS.rel = 'stylesheet';
-    navbarCSS.href = 'nav.css';
+    navbarCSS.href = 'css/nav.css';
     document.head.appendChild(navbarCSS);
 
     // Añadir el JS de la barra de navegación y ejecutarlo
     const navbarJS = document.createElement('script');
-    navbarJS.src = 'nav.js';
+    navbarJS.src = 'js/nav.js';
     navbarJS.defer = true;
     document.body.appendChild(navbarJS);
 
