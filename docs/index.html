@@ -14,26 +14,9 @@
     <!-- Mensaje de estado (cargando / error) -->
     <div class="status" id="status">Cargando datos...</div>
 
-    <!-- Barra superior: búsqueda + random -->
-    <div class="toolbar">
-      <input
-        type="text"
-        id="search-input"
-        placeholder="Buscar por palabra o traducción..."
-        autocomplete="off"
-      />
-      <button id="search-btn" disabled>Buscar</button>
-      <button id="random-btn" class="secondary" disabled>Random: OFF</button>
-    </div>
-
     <!-- Tarjeta de vocabulario -->
     <div class="flashcard" id="card">
       <div class="word" id="word">...</div>
-
-      <div class="buttons">
-        <button id="show-btn" disabled>Mostrar solución</button>
-        <button id="next-btn" class="secondary" disabled>Siguiente palabra</button>
-      </div>
 
       <div class="solution" id="solution">
         <p class="solution-line">
@@ -48,6 +31,11 @@
       </div>
 
       <div class="counter" id="counter"></div>
+      <div class="buttons">
+        <button id="show-btn" disabled>Mostrar solución</button>
+        <button id="next-btn" class="secondary" disabled>Siguiente palabra</button>
+        <button id="random-btn" class="secondary" disabled>Random: OFF</button>
+      </div>
     </div>
   </div>
 

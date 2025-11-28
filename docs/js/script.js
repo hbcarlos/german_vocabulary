@@ -47,9 +47,6 @@ const statusElem = document.getElementById("status");
 
 const showBtn = document.getElementById("show-btn");
 const nextBtn = document.getElementById("next-btn");
-
-const searchInput = document.getElementById("search-input");
-const searchBtn = document.getElementById("search-btn");
 const randomBtn = document.getElementById("random-btn");
 
 // Colores asociados a cada artículo
@@ -64,7 +61,7 @@ let currentIndex = 0;
 let randomMode = false;
 
 function setButtonsEnabled(enabled) {
-  [showBtn, nextBtn, searchBtn, randomBtn].forEach(btn => {
+  [showBtn, nextBtn, randomBtn].forEach(btn => {
     btn.disabled = !enabled;
   });
 }
@@ -119,31 +116,11 @@ function setRandomMode(on) {
   randomBtn.classList.toggle("active", randomMode);
 }
 
-function searchWord() {
-  if (!words.length) return;
-
-  const query = searchInput.value.trim().toLowerCase();
-  if (!query) return;
-
-  const foundIndex = words.findIndex(item =>
-    (item.word && item.word.toLowerCase().includes(query)) ||
-    (item.translation && item.translation.toLowerCase().includes(query))
-  );
-
-  if (foundIndex === -1) {
-    alert("No se encontró ninguna palabra que coincida.");
-    return;
-  }
-
-  currentIndex = foundIndex;
-  renderCard(currentIndex);
-  showSolution();
-}
-
 // ------ Inicialización asíncrona ------
 
 async function initializeApp() {
   try {
+    statusElem.hidden = false;
     statusElem.textContent = "Cargando datos...";
     setButtonsEnabled(false);
 
@@ -158,7 +135,8 @@ async function initializeApp() {
 
     currentIndex = 0;
     renderCard(currentIndex);
-    statusElem.textContent = `Cargadas ${words.length} palabras.`;
+    statusElem.textContent = ""//`Cargadas ${words.length} palabras.`;
+    statusElem.hidden = true;
     setButtonsEnabled(true);
   } catch (err) {
     console.error(err);
@@ -170,13 +148,6 @@ async function initializeApp() {
 // Eventos
 showBtn.addEventListener("click", showSolution);
 nextBtn.addEventListener("click", nextWord);
-
-searchBtn.addEventListener("click", searchWord);
-searchInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
-    searchWord();
-  }
-});
 
 randomBtn.addEventListener("click", () => {
   setRandomMode(!randomMode);
