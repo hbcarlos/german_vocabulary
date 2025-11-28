@@ -1,0 +1,113 @@
+/* --- Navbar Styles --- */
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  width: min(95vw, 960px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-toggler {
+  display: none; /* Hidden by default on larger screens */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  bottom: -8px;
+}
+
+.navbar-collapse {
+  display: flex;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+/* --- Responsive Styles for Hamburger Menu --- */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block; /* Show the hamburger button */
+  }
+
+  .navbar-collapse {
+    display: none; /* Hide the menu by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .navbar-collapse.is-open {
+    display: flex; /* Show the menu when toggled */
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
