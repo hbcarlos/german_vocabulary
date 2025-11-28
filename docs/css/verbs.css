@@ -1,5 +1,6 @@
 /* --- Game Styles --- */
 #game-container {
+  max-width: 600px;
   margin-top: 2rem;
 }
 
