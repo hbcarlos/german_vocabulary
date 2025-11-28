@@ -1,43 +1,431 @@
 [
-	{ "word": "heißen", "translation": "llamarse" },
-	{ "word": "sein", "translation": "ser" },
-	{ "word": "haben", "translation": "tener" },
-	{ "word": "wohnen", "translation": "vivir" },
-	{ "word": "kommen", "translation": "venir" },
-	{ "word": "gern", "translation": "con gusto, de buena gana" },
-	{ "word": "gehen", "translation": "ir, caminar" },
-	{ "word": "lernen", "translation": "aprender" },
-	{ "word": "sprechen", "translation": "hablar" },
-	{ "word": "sehen", "translation": "ver" },
+  {
+    "verb": "heißen",
+    "translation": "llamarse",
+    "conjugations": {
+      "ich": "heiße",
+      "du": "heißt",
+      "er/sie/es": "heißt",
+      "wir": "heißen",
+      "ihr": "heißt",
+      "sie/Sie": "heißen"
+    }
+  },
+  {
+    "verb": "sein",
+    "translation": "ser, estar",
+    "conjugations": {
+      "ich": "bin",
+      "du": "bist",
+      "er/sie/es": "ist",
+      "wir": "sind",
+      "ihr": "seid",
+      "sie/Sie": "sind"
+    }
+  },
+  {
+    "verb": "haben",
+    "translation": "tener",
+    "conjugations": {
+      "ich": "habe",
+      "du": "hast",
+      "er/sie/es": "hat",
+      "wir": "haben",
+      "ihr": "habt",
+      "sie/Sie": "haben"
+    }
+  },
+  {
+    "verb": "wohnen",
+    "translation": "vivir",
+    "conjugations": {
+      "ich": "wohne",
+      "du": "wohnst",
+      "er/sie/es": "wohnt",
+      "wir": "wohnen",
+      "ihr": "wohnt",
+      "sie/Sie": "wohnen"
+    }
+  },
+  {
+    "verb": "kommen",
+    "translation": "venir",
+    "conjugations": {
+      "ich": "komme",
+      "du": "kommst",
+      "er/sie/es": "kommt",
+      "wir": "kommen",
+      "ihr": "kommt",
+      "sie/Sie": "kommen"
+    }
+  },
+  {
+    "verb": "gehen",
+    "translation": "ir, caminar",
+    "conjugations": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er/sie/es": "geht",
+      "wir": "gehen",
+      "ihr": "geht",
+      "sie/Sie": "gehen"
+    }
+  },
+  {
+    "verb": "lernen",
+    "translation": "aprender",
+    "conjugations": {
+      "ich": "lerne",
+      "du": "lernst",
+      "er/sie/es": "lernt",
+      "wir": "lernen",
+      "ihr": "lernt",
+      "sie/Sie": "lernen"
+    }
+  },
+  {
+    "verb": "sprechen",
+    "translation": "hablar",
+    "conjugations": {
+      "ich": "spreche",
+      "du": "sprichst",
+      "er/sie/es": "spricht",
+      "wir": "sprechen",
+      "ihr": "sprecht",
+      "sie/Sie": "sprechen"
+    }
+  },
+  {
+    "verb": "sehen",
+    "translation": "ver",
+    "conjugations": {
+      "ich": "sehe",
+      "du": "siehst",
+      "er/sie/es": "sieht",
+      "wir": "sehen",
+      "ihr": "seht",
+      "sie/Sie": "sehen"
+    }
+  },
 
-	{ "word": "buchstabieren", "translation": "deletrear" },
-	{ "word": "fragen", "translation": "preguntar" },
-	{ "word": "hören", "translation": "escuchar, oír" },
-	{ "word": "lesen", "translation": "leer" },
-	{ "word": "machen", "translation": "hacer" },
-	{ "word": "notieren", "translation": "anotar" },
-	{ "word": "raten", "translation": "adivinar" },
-	{ "word": "sagen", "translation": "decir" },
-	{ "word": "sammeln", "translation": "coleccionar, reunir" },
-	{ "word": "schreiben", "translation": "escribir" },
-	{ "word": "spielen", "translation": "jugar" },
-	{ "word": "zuordnen", "translation": "relacionar, emparejar" },
 
-	{ "word": "arbeiten", "translation": "trabajar" },
-	{ "word": "Tennis spielen", "translation": "jugar al tenis" },
-	{ "word": "joggen", "translation": "correr, hacer footing" },
-	{ "word": "schwimmen", "translation": "nadar" },
-	{ "word": "fotografieren", "translation": "fotografiar" },
-	{ "word": "kochen", "translation": "cocinar" },
-	{ "word": "reisen", "translation": "viajar" },
-	{ "word": "singen", "translation": "cantar" },
-	{ "word": "tanzen", "translation": "bailar" },
-	
-	{ "word": "passen", "translation": "quedar bien, encajar" },
-	{ "word": "suchen", "translation": "buscar" },
-	{ "word": "warten", "translation": "esperar" },
 
-	{ "word": "zeigen", "translation": "mostrar, indicar" },
-	{ "word": "zeichnen", "translation": "dibujar" },
-	{ "word": "finden", "translation": "encontrar; opinar" }
+  {
+    "verb": "buchstabieren",
+    "translation": "deletrear",
+    "conjugations": {
+      "ich": "buchstabiere",
+      "du": "buchstabierst",
+      "er/sie/es": "buchstabiert",
+      "wir": "buchstabieren",
+      "ihr": "buchstabiert",
+      "sie/Sie": "buchstabieren"
+    }
+  },
+  {
+    "verb": "fragen",
+    "translation": "preguntar",
+    "conjugations": {
+      "ich": "frage",
+      "du": "fragst",
+      "er/sie/es": "fragt",
+      "wir": "fragen",
+      "ihr": "fragt",
+      "sie/Sie": "fragen"
+    }
+  },
+  {
+    "verb": "hören",
+    "translation": "escuchar, oír",
+    "conjugations": {
+      "ich": "höre",
+      "du": "hörst",
+      "er/sie/es": "hört",
+      "wir": "hören",
+      "ihr": "hört",
+      "sie/Sie": "hören"
+    }
+  },
+  {
+    "verb": "lesen",
+    "translation": "leer",
+    "conjugations": {
+      "ich": "lese",
+      "du": "liest",
+      "er/sie/es": "liest",
+      "wir": "lesen",
+      "ihr": "lest",
+      "sie/Sie": "lesen"
+    }
+  },
+  {
+    "verb": "machen",
+    "translation": "hacer",
+    "conjugations": {
+      "ich": "mache",
+      "du": "machst",
+      "er/sie/es": "macht",
+      "wir": "machen",
+      "ihr": "macht",
+      "sie/Sie": "machen"
+    }
+  },
+  {
+    "verb": "notieren",
+    "translation": "anotar",
+    "conjugations": {
+      "ich": "notiere",
+      "du": "notierst",
+      "er/sie/es": "notiert",
+      "wir": "notieren",
+      "ihr": "notiert",
+      "sie/Sie": "notieren"
+    }
+  },
+  {
+    "verb": "raten",
+    "translation": "adivinar",
+    "conjugations": {
+      "ich": "rate",
+      "du": "rätst",
+      "er/sie/es": "rät",
+      "wir": "raten",
+      "ihr": "ratet",
+      "sie/Sie": "raten"
+    }
+  },
+  {
+    "verb": "sagen",
+    "translation": "decir",
+    "conjugations": {
+      "ich": "sage",
+      "du": "sagst",
+      "er/sie/es": "sagt",
+      "wir": "sagen",
+      "ihr": "sagt",
+      "sie/Sie": "sagen"
+    }
+  },
+  {
+    "verb": "sammeln",
+    "translation": "coleccionar, reunir",
+    "conjugations": {
+      "ich": "sammle",
+      "du": "sammelst",
+      "er/sie/es": "sammelt",
+      "wir": "sammeln",
+      "ihr": "sammelt",
+      "sie/Sie": "sammeln"
+    }
+  },
+  {
+    "verb": "schreiben",
+    "translation": "escribir",
+    "conjugations": {
+      "ich": "schreibe",
+      "du": "schreibst",
+      "er/sie/es": "schreibt",
+      "wir": "schreiben",
+      "ihr": "schreibt",
+      "sie/Sie": "schreiben"
+    }
+  },
+  {
+    "verb": "spielen",
+    "translation": "jugar",
+    "conjugations": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er/sie/es": "spielt",
+      "wir": "spielen",
+      "ihr": "spielt",
+      "sie/Sie": "spielen"
+    }
+  },
+  {
+    "verb": "zuordnen",
+    "translation": "relacionar, emparejar",
+    "conjugations": {
+      "ich": "ordne zu",
+      "du": "ordnest zu",
+      "er/sie/es": "ordnet zu",
+      "wir": "ordnen zu",
+      "ihr": "ordnet zu",
+      "sie/Sie": "ordnen zu"
+    }
+  },
+
+
+  {
+    "verb": "arbeiten",
+    "translation": "trabajar",
+    "conjugations": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er/sie/es": "arbeitet",
+      "wir": "arbeiten",
+      "ihr": "arbeitet",
+      "sie/Sie": "arbeiten"
+    }
+  },
+  {
+    "verb": "joggen",
+    "translation": "correr, hacer footing",
+    "conjugations": {
+      "ich": "jogge",
+      "du": "joggst",
+      "er/sie/es": "joggt",
+      "wir": "joggen",
+      "ihr": "joggt",
+      "sie/Sie": "joggen"
+    }
+  },
+  {
+    "verb": "schwimmen",
+    "translation": "nadar",
+    "conjugations": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er/sie/es": "schwimmt",
+      "wir": "schwimmen",
+      "ihr": "schwimmt",
+      "sie/Sie": "schwimmen"
+    }
+  },
+  {
+    "verb": "fotografieren",
+    "translation": "fotografiar",
+    "conjugations": {
+      "ich": "fotografiere",
+      "du": "fotografierst",
+      "er/sie/es": "fotografiert",
+      "wir": "fotografieren",
+      "ihr": "fotografiert",
+      "sie/Sie": "fotografieren"
+    }
+  },
+  {
+    "verb": "kochen",
+    "translation": "cocinar",
+    "conjugations": {
+      "ich": "koche",
+      "du": "kochst",
+      "er/sie/es": "kocht",
+      "wir": "kochen",
+      "ihr": "kocht",
+      "sie/Sie": "kochen"
+    }
+  },
+  {
+    "verb": "reisen",
+    "translation": "viajar",
+    "conjugations": {
+      "ich": "reise",
+      "du": "reist",
+      "er/sie/es": "reist",
+      "wir": "reisen",
+      "ihr": "reist",
+      "sie/Sie": "reisen"
+    }
+  },
+  {
+    "verb": "singen",
+    "translation": "cantar",
+    "conjugations": {
+      "ich": "singe",
+      "du": "singst",
+      "er/sie/es": "singt",
+      "wir": "singen",
+      "ihr": "singt",
+      "sie/Sie": "singen"
+    }
+  },
+  {
+    "verb": "tanzen",
+    "translation": "bailar",
+    "conjugations": {
+      "ich": "tanze",
+      "du": "tanzt",
+      "er/sie/es": "tanzt",
+      "wir": "tanzen",
+      "ihr": "tanzt",
+      "sie/Sie": "tanzen"
+    }
+  },
+
+
+  {
+    "verb": "passen",
+    "translation": "quedar bien, encajar",
+    "conjugations": {
+      "ich": "passe",
+      "du": "passt",
+      "er/sie/es": "passt",
+      "wir": "passen",
+      "ihr": "passt",
+      "sie/Sie": "passen"
+    }
+  },
+  {
+    "verb": "suchen",
+    "translation": "buscar",
+    "conjugations": {
+      "ich": "suche",
+      "du": "suchst",
+      "er/sie/es": "sucht",
+      "wir": "suchen",
+      "ihr": "sucht",
+      "sie/Sie": "suchen"
+    }
+  },
+  {
+    "verb": "warten",
+    "translation": "esperar",
+    "conjugations": {
+      "ich": "warte",
+      "du": "wartest",
+      "er/sie/es": "wartet",
+      "wir": "warten",
+      "ihr": "wartet",
+      "sie/Sie": "warten"
+    }
+  },
+
+  
+  {
+    "verb": "zeigen",
+    "translation": "mostrar, indicar",
+    "conjugations": {
+      "ich": "zeige",
+      "du": "zeigst",
+      "er/sie/es": "zeigt",
+      "wir": "zeigen",
+      "ihr": "zeigt",
+      "sie/Sie": "zeigen"
+    }
+  },
+  {
+    "verb": "zeichnen",
+    "translation": "dibujar",
+    "conjugations": {
+      "ich": "zeichne",
+      "du": "zeichnest",
+      "er/sie/es": "zeichnet",
+      "wir": "zeichnen",
+      "ihr": "zeichnet",
+      "sie/Sie": "zeichnen"
+    }
+  },
+  {
+    "verb": "finden",
+    "translation": "encontrar; opinar",
+    "conjugations": {
+      "ich": "finde",
+      "du": "findest",
+      "er/sie/es": "findet",
+      "wir": "finden",
+      "ihr": "findet",
+      "sie/Sie": "finden"
+    }
+  }
 ]

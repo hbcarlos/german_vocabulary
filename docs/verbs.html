@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Práctica de Conjugación de Verbos - Vocabulario Alemán</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/verbs.css" />
+</head>
+<body>
+  <!-- El contenedor de la barra de navegación se llenará dinámicamente -->
+  <div id="navbar-container"></div>
+
+  <div class="container page-container">
+    <h1>Práctica de Conjugación de Verbos</h1>
+    <p>Conjuga el siguiente verbo en tiempo presente.</p>
+
+    <div id="game-container">
+      <div class="verb-display" id="verb-display">...</div>
+      
+      <div class="conjugation-form">
+        <div class="form-row">
+          <label for="ich">ich</label>
+          <input type="text" id="ich" autocomplete="off">
+        </div>
+        <div class="form-row">
+          <label for="du">du</label>
+          <input type="text" id="du" autocomplete="off">
+        </div>
+        <div class="form-row">
+          <label for="er-sie-es">er/sie/es</label>
+          <input type="text" id="er-sie-es" autocomplete="off">
+        </div>
+        <div class="form-row">
+          <label for="wir">wir</label>
+          <input type="text" id="wir" autocomplete="off">
+        </div>
+        <div class="form-row">
+          <label for="ihr">ihr</label>
+          <input type="text" id="ihr" autocomplete="off">
+        </div>
+        <div class="form-row">
+          <label for="sie-Sie">sie/Sie</label>
+          <input type="text" id="sie-Sie" autocomplete="off">
+        </div>
+        <div class="form-row">
+          Traducción: <span class="translation" id="translation"></span>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button id="check-btn">Comprobar</button>
+        <button id="show-answers-btn">Mostrar Respuestas</button>
+        <button id="next-verb-btn" class="secondary">Siguiente Verbo</button>
+        <button id="random-btn" class="secondary">Random: OFF</button>
+      </div>
+
+      <div id="results-container"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/verbs.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* --- Game Styles --- */
+#game-container {
+  margin-top: 2rem;
+}
+
+.verb-display {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.conjugation-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-row label {
+  font-weight: 500;
+  width: 80px; /* Fixed width for alignment */
+  text-align: right;
+  color: #555;
+}
+
+.form-row input[type="text"] {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-row input[type="text"]:focus {
+  border-color: #222;
+}
+
+.form-row input.correct {
+  border-color: #28a745;
+  background-color: #e9f7ea;
+}
+
+.form-row input.incorrect {
+  border-color: #dc3545;
+  background-color: #f8d7da;
+}
+
+#results-container {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.result-correct {
+  color: #28a745;
+}
+
+.result-incorrect {
+  color: #dc3545;
+}
+
+button.secondary.active {
+  background: #007bff;
+}
