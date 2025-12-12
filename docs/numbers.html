@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Práctica los números</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- El contenedor de la barra de navegación se llenará dinámicamente -->
+  <div id="navbar-container"></div>
+
+  <div class="container">
+    <!-- Mensaje de estado (cargando / error) -->
+    <div class="status" id="status">Cargando datos...</div>
+
+    <!-- Tarjeta de vocabulario -->
+    <div class="flashcard" id="card">
+      <div class="word" id="word">...</div>
+
+      <div class="solution" id="solution">
+        <p class="solution-line">
+          Traducción: <span class="translation" id="translation"></span>
+        </p>
+      </div>
+
+      <div class="counter" id="counter"></div>
+      <div class="buttons">
+        <button id="show-btn" disabled>Mostrar solución</button>
+        <button id="random-btn" class="secondary" disabled>Random: OFF</button>
+        <button id="next-btn" class="secondary" disabled>Siguiente palabra</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/numbers.js"></script>
+</body>
+</html>
