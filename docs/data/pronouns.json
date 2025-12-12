@@ -1,17 +1,68 @@
-[
-	{ "word": "ich", "translation": "yo" },
-	{ "word": "du", "translation": "tú" },
-	{ "word": "er/sie/es", "translation": "él/ella/ello" },
-	
-	{ "word": "wir", "translation": "nosotros" },
-	{ "word": "ihr", "translation": "vosotros" },
-	{ "word": "sie", "translation": "ellos" },
-	{ "word": "Sie", "translation": "usted/ustedes" },
+{
+    "personales": [
+        { "word": "ich", "translation": "yo" },
+        { "word": "du", "translation": "tú" },
+        { "word": "er", "translation": "él" },
+        { "word": "sie", "translation": "ella" },
+        { "word": "es", "translation": "ello (neutro)" },
+        { "word": "wir", "translation": "nosotros/as" },
+        { "word": "ihr", "translation": "vosotros/as" },
+        { "word": "sie", "translation": "ellos/as" },
+        { "word": "Sie", "translation": "usted/ustedes" }
+    ],
 
-	{ "word": "mein", "translation": "mi/mio" },
-	{ "word": "dein", "translation": "tu/tuyo" },
+    "posesivos": [
+        { "word": "mein", "translation": "mi / mío" },
+        { "word": "dein", "translation": "tu / tuyo" },
+        { "word": "sein", "translation": "su (de él/neutro)" },
+        { "word": "ihr", "translation": "su (de ella)" },
+        { "word": "unser", "translation": "nuestro" },
+        { "word": "euer", "translation": "vuestro" },
+        { "word": "ihr", "translation": "su (de ellos/as)" },
+        { "word": "Ihr", "translation": "su (de usted/es)" }
+    ],
 
+    "reflexivos": [
+        { "word": "mich", "translation": "me (acusativo)" },
+        { "word": "dich", "translation": "te (acusativo)" },
+        { "word": "sich", "translation": "se (a sí mismo)" },
+        { "word": "uns", "translation": "nos" },
+        { "word": "euch", "translation": "os" },
+        { "word": "mir", "translation": "me (dativo)" },
+        { "word": "dir", "translation": "te (dativo)" }
+    ],
 
-	
-	{ "word": "alle", "translation": "todos, todas" }
-]
+    "interrogativos": [
+        { "word": "wer", "translation": "¿quién?" },
+        { "word": "was", "translation": "¿qué?" },
+        { "word": "wen", "translation": "¿a quién? (acusativo)" },
+        { "word": "wem", "translation": "¿a quién? (dativo)" },
+        { "word": "wessen", "translation": "¿de quién?" },
+        { "word": "welcher", "translation": "¿cuál?" }
+    ],
+
+    "indefinidos": [
+        { "word": "man", "translation": "se / uno (impersonal)" },
+        { "word": "jemand", "translation": "alguien" },
+        { "word": "niemand", "translation": "nadie" },
+        { "word": "etwas", "translation": "algo" },
+        { "word": "nichts", "translation": "nada" },
+        { "word": "alles", "translation": "todo" },
+        { "word": "jeder", "translation": "cada uno / todos" },
+        { "word": "manche", "translation": "algunos" }
+    ],
+
+    "demostrativos": [
+        { "word": "dieser", "translation": "este" },
+        { "word": "jener", "translation": "aquel" },
+        { "word": "derselbe", "translation": "el mismo" },
+        { "word": "derjenige", "translation": "aquel que" }
+    ],
+
+    "relativos": [
+        { "word": "der", "translation": "que / el cual" },
+        { "word": "die", "translation": "que / la cual" },
+        { "word": "das", "translation": "que / lo cual" },
+        { "word": "welcher", "translation": "el cual (menos común)" }
+    ]
+}

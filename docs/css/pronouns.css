@@ -1,0 +1,102 @@
+/* Contenedor principal */
+.pronoun-accordion {
+  width: 100%;
+  max-width: 800px; /* Ancho máximo para que no se vea enorme en PC */
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Estilo de cada bloque (details) */
+.pronoun-accordion details {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.pronoun-accordion details:last-child {
+  border-bottom: none;
+}
+
+/* El botón / Título (summary) */
+.pronoun-accordion summary {
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  list-style: none; /* Oculta el triángulo por defecto */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+/* Eliminar marcador por defecto en Safari/Webkit */
+.pronoun-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.pronoun-accordion summary:hover {
+  background-color: #eef2f5;
+}
+
+/* Crear nuestro propio icono de flecha */
+.pronoun-accordion summary::after {
+  content: '▼';
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+  color: #666;
+}
+
+/* Girar la flecha cuando está abierto */
+.pronoun-accordion details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.pronoun-accordion details[open] summary {
+  border-bottom: 1px solid #e0e0e0; /* Línea separadora cuando abre */
+  color: #007bff; /* Color azul al estar activo */
+}
+
+/* Contenedor de la tabla */
+.table-wrapper {
+  padding: 0;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Estilos de la tabla */
+.pronoun-accordion table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.pronoun-accordion th, 
+.pronoun-accordion td {
+  padding: 12px 1.5rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pronoun-accordion th {
+  background-color: #fff;
+  color: #444;
+  font-weight: 700;
+  width: 40%; /* Ancho columna alemán */
+}
+
+.pronoun-accordion tr:last-child td {
+  border-bottom: none;
+}
+
+.pronoun-accordion tr:hover td {
+  background-color: #fafafa;
+}
+
+/* Pequeña animación de entrada */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
