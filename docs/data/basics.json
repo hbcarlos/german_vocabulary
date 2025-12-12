@@ -39,6 +39,29 @@
 		{ "word": "Winter", "article": "der", "translation": "invierno" }
 	],
 
+	"colors": [
+		{ "word": "weiß",       "article": "das", "translation": "blanco",        "color": "#ffffff" },
+		{ "word": "schwarz",    "article": "das", "translation": "negro",         "color": "#000000" },
+		{ "word": "rot",        "article": "das", "translation": "rojo",          "color": "#ff0000" },
+		{ "word": "blau",       "article": "das", "translation": "azul",          "color": "#0000ff" },
+		{ "word": "gelb",       "article": "das", "translation": "amarillo",      "color": "#ffff00" },
+		{ "word": "grün",       "article": "das", "translation": "verde",         "color": "#008000" },
+		{ "word": "orange",     "article": "das", "translation": "naranja",       "color": "#ffa500" },
+		{ "word": "lila",       "article": "das", "translation": "lila, morado",  "color": "#800080" },
+		{ "word": "violett",    "article": "das", "translation": "violeta",       "color": "#8f00ff" },
+		{ "word": "rosa",       "article": "das", "translation": "rosa",          "color": "#ffc0cb" },
+		{ "word": "braun",      "article": "das", "translation": "marrón",        "color": "#8b4513" },
+		{ "word": "grau",       "article": "das", "translation": "gris",          "color": "#808080" },
+		{ "word": "beige",      "article": "das", "translation": "beis",          "color": "#f5f5dc" },
+		{ "word": "türkis",     "article": "das", "translation": "turquesa",      "color": "#40e0d0" },
+		{ "word": "hellblau",   "article": "das", "translation": "azul claro",    "color": "#87cefa" },
+		{ "word": "dunkelblau", "article": "das", "translation": "azul oscuro",   "color": "#00008b" },
+		{ "word": "hellgrün",   "article": "das", "translation": "verde claro",   "color": "#90ee90" },
+		{ "word": "dunkelgrün", "article": "das", "translation": "verde oscuro",  "color": "#006400" },
+		{ "word": "gold",       "article": "das", "translation": "dorado",        "color": "#ffd700" },
+		{ "word": "silber",     "article": "das", "translation": "plateado",      "color": "#c0c0c0" }
+	],
+
 	"countries": [
 		{ "word": "Deutschland", "article": "", "translation": "Alemania" },
 		{ "word": "Österreich", "article": "", "translation": "Austria" },

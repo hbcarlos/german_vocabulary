@@ -17,10 +17,10 @@ async function fetchData() {
   const basicsPromise = fetch('./data/basics.json')
     .then(res => res.json())
     .then(d => [
-      ...(d.questions || []),
       ...(d.days || []),
       ...(d.month || []),
       ...(d.seasons || []),
+      ...(d.colors || []),
       ...(d.countries || []),
       ...(d.languages || [])
     ])
@@ -88,7 +88,7 @@ function showSolution() {
   solutionElem.style.display = "block";
 
   const art = (item.article || "").toLowerCase();
-  const color = articleColors[art] || "#fff3cd"; // color por defecto
+  const color = item.color || articleColors[art] || "#fff3cd"; // color por defecto
   card.style.backgroundColor = color;
 }
 
