@@ -167,5 +167,157 @@
 	{ "word": "Test", "plural": "Tests", "article": "der", "translation": "examen, prueba" },
 	{ "word": "Welt", "plural": "Welten", "article": "die", "translation": "mundo" },
 	{ "word": "Lösung", "plural": "Lösungen", "article": "die", "translation": "solución" },
-	{ "word": "Glück", "plural": "", "article": "das", "translation": "suerte" }
+	{ "word": "Glück", "plural": "", "article": "das", "translation": "suerte" },
+
+
+
+	{ "word": "Obst",          "plural": "",             "article": "das",       "translation": "fruta" },
+	{ "word": "Apfel",         "plural": "Äpfel",        "article": "der",       "translation": "manzana" },
+	{ "word": "Banane",        "plural": "Bananen",      "article": "die",       "translation": "banana, plátano" },
+	{ "word": "Birne",         "plural": "Birnen",       "article": "die",       "translation": "pera" },
+
+	{ "word": "Gemüse",        "plural": "",             "article": "das",       "translation": "verdura, verduras" },
+	{ "word": "Gurke",         "plural": "Gurken",       "article": "die",       "translation": "pepino" },
+	{ "word": "Kartoffel",     "plural": "Kartoffeln",   "article": "die",       "translation": "patata" },
+	{ "word": "Salat",         "plural": "Salate",       "article": "der",       "translation": "ensalada, lechuga" },
+	{ "word": "Tomate",        "plural": "Tomaten",      "article": "die",       "translation": "tomate" },
+	{ "word": "Olive",         "plural": "Oliven",       "article": "die",       "translation": "aceituna, oliva" },
+	{ "word": "Zwiebel",       "plural": "Zwiebeln",     "article": "die",       "translation": "cebolla" },
+
+	{ "word": "Brot",          "plural": "Brote",        "article": "das",       "translation": "pan" },
+	{ "word": "Brötchen",      "plural": "Brötchen",     "article": "das",       "translation": "panecillo, bollo" },
+	{ "word": "Keks",          "plural": "Kekse",        "article": "der",       "translation": "galleta" },
+	{ "word": "Kuchen",        "plural": "Kuchen",       "article": "der",       "translation": "pastel, bizcocho" },
+
+	{ "word": "Fleisch",       "plural": "",             "article": "das",       "translation": "carne" },
+	{ "word": "Hähnchen",      "plural": "Hähnchen",     "article": "das",       "translation": "pollo" },
+	{ "word": "Schinken",      "plural": "Schinken",     "article": "der",       "translation": "jamón" },
+	{ "word": "Wurst",         "plural": "Würste",       "article": "die",       "translation": "embutido, salchicha" },
+	{ "word": "Würstchen",     "plural": "Würstchen",    "article": "das",       "translation": "salchicha pequeña" },
+
+	{ "word": "Butter",        "plural": "",             "article": "die",       "translation": "mantequilla" },
+	{ "word": "Joghurt",       "plural": "Joghurt(e)",   "article": "der/das",   "translation": "yogur" },
+	{ "word": "Käse",          "plural": "",             "article": "der",       "translation": "queso" },
+	{ "word": "Milch",         "plural": "",             "article": "die",       "translation": "leche" },
+	{ "word": "Sahne",         "plural": "",             "article": "die",       "translation": "nata" },
+
+	{ "word": "Pfeffer",       "plural": "",             "article": "der",       "translation": "pimienta" },
+	{ "word": "Salz",          "plural": "Salze",        "article": "das",       "translation": "sal" },
+	{ "word": "Zucker",        "plural": "",             "article": "der",       "translation": "azúcar" },
+	{ "word": "Essig",         "plural": "Essige",       "article": "der",       "translation": "vinagre" },
+	{ "word": "Öl",            "plural": "Öle",          "article": "das",       "translation": "aceite" },
+	{ "word": "Nudel",         "plural": "Nudeln",       "article": "die",       "translation": "pasta, fideo" },
+	{ "word": "Reis",          "plural": "",             "article": "der",       "translation": "arroz" },
+	{ "word": "Ei",            "plural": "Eier",         "article": "das",       "translation": "huevo" },
+
+	{ "word": "Fisch",         "plural": "Fische",       "article": "der",       "translation": "pescado" },
+	{ "word": "Schokolade",    "plural": "Schokoladen",  "article": "die",       "translation": "chocolate" },
+	{ "word": "Marmelade",     "plural": "Marmeladen",   "article": "die",       "translation": "mermelada" },
+	{ "word": "Müsli",         "plural": "Müslis",       "article": "das",       "translation": "muesli, cereales" },
+
+	{ "word": "Getränk",       "plural": "Getränke",     "article": "das",       "translation": "bebida" },
+	{ "word": "Wasser",        "plural": "",             "article": "das",       "translation": "agua" },
+	{ "word": "Saft",          "plural": "Säfte",        "article": "der",       "translation": "zumo, jugo" },
+	{ "word": "Limonade",      "plural": "Limonaden",    "article": "die",       "translation": "limonada, refresco" },
+	{ "word": "Cola",          "plural": "Colas",        "article": "die",       "translation": "refresco de cola" },
+	{ "word": "Kaffee",        "plural": "Kaffees",      "article": "der",       "translation": "café" },
+	{ "word": "Tee",           "plural": "Tees",         "article": "der",       "translation": "té" },
+
+	{ "word": "Bäckerei",      "plural": "Bäckereien",   "article": "die",       "translation": "panadería" },
+	{ "word": "Markt",         "plural": "Märkte",       "article": "der",       "translation": "mercado" },
+	{ "word": "Metzgerei",     "plural": "Metzgereien",  "article": "die",       "translation": "carnicería" },
+	{ "word": "Supermarkt",    "plural": "Supermärkte",  "article": "der",       "translation": "supermercado" },
+
+	{ "word": "Packung",       "plural": "Packungen",    "article": "die",       "translation": "paquete" },
+	{ "word": "Becher",        "plural": "Becher",       "article": "der",       "translation": "vaso, vasito (recipiente)" },
+	{ "word": "Dose",          "plural": "Dosen",        "article": "die",       "translation": "lata" },
+	{ "word": "Stück",         "plural": "Stücke",       "article": "das",       "translation": "trozo, pieza" },
+	{ "word": "Tüte",          "plural": "Tüten",        "article": "die",       "translation": "bolsa" },
+	{ "word": "Gramm",         "plural": "",             "article": "das",       "translation": "gramo" },
+	{ "word": "Kilo(gramm)",   "plural": "",             "article": "das",       "translation": "kilo, kilogramo" },
+	{ "word": "Liter",         "plural": "",             "article": "der",       "translation": "litro" },
+
+	{ "word": "Einkaufswagen", "plural": "Einkaufswagen","article": "der",       "translation": "carrito de la compra" },
+	{ "word": "Preis",         "plural": "Preise",       "article": "der",       "translation": "precio" },
+	{ "word": "Kassenzettel",  "plural": "Kassenzettel", "article": "der",       "translation": "ticket, recibo" },
+
+	{ "word": "Essen",         "plural": "",             "article": "das",       "translation": "comida" },
+	{ "word": "Frühstück",     "plural": "Frühstücke",   "article": "das",       "translation": "desayuno" },
+	{ "word": "Mittagessen",   "plural": "",             "article": "das",       "translation": "comida del mediodía, almuerzo" },
+	{ "word": "Abendessen",    "plural": "",             "article": "das",       "translation": "cena" },
+
+	{ "word": "Gericht",       "plural": "Gerichte",     "article": "das",       "translation": "plato (de comida)" },
+	{ "word": "Suppe",         "plural": "Suppen",       "article": "die",       "translation": "sopa" },
+	{ "word": "Pizza",         "plural": "Pizzen",       "article": "die",       "translation": "pizza" },
+	{ "word": "Pommes frites", "plural": "",             "article": "die (Pl.)", "translation": "patatas fritas" },
+
+	{ "word": "Morgen",        "plural": "",             "article": "der",       "translation": "mañana" },
+	{ "word": "Mittag",        "plural": "Mittage",      "article": "der",       "translation": "mediodía" },
+	{ "word": "Nachmittag",    "plural": "Nachmittage",  "article": "der",       "translation": "tarde (después de comer)" },
+	{ "word": "Abend",         "plural": "Abende",       "article": "der",       "translation": "tarde-noche" },
+	{ "word": "Nacht",         "plural": "Nächte",       "article": "die",       "translation": "noche" },
+
+	{ "word": "Einladung",     "plural": "Einladungen",  "article": "die",       "translation": "invitación" },
+	{ "word": "Kantine",       "plural": "Kantinen",     "article": "die",       "translation": "cantina, comedor" },
+
+
+
+
+	
+	{ "word": "Nachricht",     "plural": "Nachrichten",    "article": "die",  "translation": "mensaje, noticia" },
+	{ "word": "Uni",           "plural": "Unis",           "article": "die",  "translation": "universidad" },
+	{ "word": "Mensa",         "plural": "Mensen",         "article": "die",  "translation": "comedor universitario" },
+	{ "word": "Bibliothek",    "plural": "Bibliotheken",   "article": "die",  "translation": "biblioteca" },
+	{ "word": "Musikschule",   "plural": "Musikschulen",   "article": "die",  "translation": "escuela de música" },
+	{ "word": "Hausaufgabe",   "plural": "Hausaufgaben",   "article": "die",  "translation": "deberes, tarea" },
+	{ "word": "Zeitung",       "plural": "Zeitungen",      "article": "die",  "translation": "periódico" },
+	{ "word": "Homepage",      "plural": "Homepages",      "article": "die",  "translation": "página web, homepage" },
+	{ "word": "Stress",        "plural": "",               "article": "der",  "translation": "estrés" },
+
+	{ "word": "Uhr",           "plural": "Uhren",          "article": "die",  "translation": "reloj; hora" },
+	{ "word": "Sekunde",       "plural": "Sekunden",       "article": "die",  "translation": "segundo" },
+	{ "word": "Minute",        "plural": "Minuten",        "article": "die",  "translation": "minuto" },
+	{ "word": "Stunde",        "plural": "Stunden",        "article": "die",  "translation": "hora" },
+	{ "word": "Verspätung",    "plural": "Verspätungen",   "article": "die",  "translation": "retraso" },
+
+	{ "word": "Familie",       "plural": "Familien",       "article": "die",  "translation": "familia" },
+	{ "word": "Verwandte",     "plural": "Verwandten",     "article": "der/die","translation": "pariente" },
+
+	{ "word": "Baby",          "plural": "Babys",          "article": "das",  "translation": "bebé" },
+	{ "word": "Kind",          "plural": "Kinder",         "article": "das",  "translation": "niño, niña" },
+	{ "word": "Junge",         "plural": "Jungen",         "article": "der",  "translation": "chico" },
+	{ "word": "Mädchen",       "plural": "Mädchen",        "article": "das",  "translation": "chica, muchacha" },
+	{ "word": "Sohn",          "plural": "Söhne",          "article": "der",  "translation": "hijo" },
+	{ "word": "Tochter",       "plural": "Töchter",        "article": "die",  "translation": "hija" },
+	{ "word": "Mutter",        "plural": "Mütter",         "article": "die",  "translation": "madre" },
+	{ "word": "Vater",         "plural": "Väter",          "article": "der",  "translation": "padre" },
+	{ "word": "Eltern",        "plural": "Eltern",         "article": "die",  "translation": "padres" },
+	{ "word": "Bruder",        "plural": "Brüder",         "article": "der",  "translation": "hermano" },
+	{ "word": "Schwester",     "plural": "Schwestern",     "article": "die",  "translation": "hermana" },
+	{ "word": "Geschwister",   "plural": "Geschwister",    "article": "die",  "translation": "hermanos/as" },
+	{ "word": "Großmutter",    "plural": "Großmütter",     "article": "die",  "translation": "abuela" },
+	{ "word": "Oma",           "plural": "Omas",           "article": "die",  "translation": "abuela (coloquial)" },
+	{ "word": "Großvater",     "plural": "Großväter",      "article": "der",  "translation": "abuelo" },
+	{ "word": "Opa",           "plural": "Opas",           "article": "der",  "translation": "abuelo (coloquial)" },
+	{ "word": "Großeltern",    "plural": "Großeltern",     "article": "die",  "translation": "abuelos" },
+	{ "word": "Mann",          "plural": "Männer",         "article": "der",  "translation": "marido; hombre" },
+	{ "word": "Frau",          "plural": "Frauen",         "article": "die",  "translation": "mujer; esposa" },
+
+	{ "word": "Zeit",          "plural": "Zeiten",         "article": "die",  "translation": "tiempo" },
+	{ "word": "Party",         "plural": "Partys",         "article": "die",  "translation": "fiesta" },
+	{ "word": "Bar",           "plural": "Bars",           "article": "die",  "translation": "bar" },
+	{ "word": "Kalender",      "plural": "Kalender",       "article": "der",  "translation": "calendario" },
+	{ "word": "Besprechung",   "plural": "Besprechungen",  "article": "die",  "translation": "reunión" },
+
+	{ "word": "Sport",         "plural": "",               "article": "der",  "translation": "deporte" },
+	{ "word": "Ball",          "plural": "Bälle",          "article": "der",  "translation": "balón, pelota" },
+	{ "word": "Motorrad",      "plural": "Motorräder",     "article": "das",  "translation": "moto" },
+	{ "word": "Geige",         "plural": "Geigen",         "article": "die",  "translation": "violín" },
+	{ "word": "Saxofon",       "plural": "Saxofone",       "article": "das",  "translation": "saxofón" },
+	{ "word": "Trompete",      "plural": "Trompeten",      "article": "die",  "translation": "trompeta" },
+
+	{ "word": "Hund",          "plural": "Hunde",          "article": "der",  "translation": "perro" },
+	{ "word": "Idee",          "plural": "Ideen",          "article": "die",  "translation": "idea" },
+	{ "word": "Problem",       "plural": "Probleme",       "article": "das",  "translation": "problema" },
+	{ "word": "Praxis",        "plural": "Praxen",         "article": "die",  "translation": "consulta, clínica" }
 ]

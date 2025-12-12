@@ -10,6 +10,11 @@
 		"translation": "a, en, junto a"
 	},
 	{
+		"word": "am",
+		"cases": ["Dativ"],
+		"translation": "el (día de la semana), en (fechas/días) – z. B. am Montag"
+	},
+	{
 		"word": "anhand",
 		"cases": ["Genitiv"],
 		"translation": "a base de, mediante"

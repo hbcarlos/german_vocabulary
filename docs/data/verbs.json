@@ -427,5 +427,370 @@
       "ihr": "findet",
       "sie/Sie": "finden"
     }
+  },
+
+  
+  {
+    "verb": "kaufen",
+    "translation": "comprar",
+    "conjugations": {
+      "ich": "kaufe",
+      "du": "kaufst",
+      "er/sie/es": "kauft",
+      "wir": "kaufen",
+      "ihr": "kauft",
+      "sie/Sie": "kaufen"
+    }
+  },
+  {
+    "verb": "ein|kaufen",
+    "translation": "hacer la compra, ir de compras",
+    "conjugations": {
+      "ich": "kaufe ein",
+      "du": "kaufst ein",
+      "er/sie/es": "kauft ein",
+      "wir": "kaufen ein",
+      "ihr": "kauft ein",
+      "sie/Sie": "kaufen ein"
+    }
+  },
+  {
+    "verb": "brauchen",
+    "translation": "necesitar",
+    "conjugations": {
+      "ich": "brauche",
+      "du": "brauchst",
+      "er/sie/es": "braucht",
+      "wir": "brauchen",
+      "ihr": "braucht",
+      "sie/Sie": "brauchen"
+    }
+  },
+  {
+    "verb": "möchten",
+    "translation": "querer, desear",
+    "conjugations": {
+      "ich": "möchte",
+      "du": "möchtest",
+      "er/sie/es": "möchte",
+      "wir": "möchten",
+      "ihr": "möchtet",
+      "sie/Sie": "möchten"
+    }
+  },
+  {
+    "verb": "finden",
+    "translation": "encontrar",
+    "conjugations": {
+      "ich": "finde",
+      "du": "findest",
+      "er/sie/es": "findet",
+      "wir": "finden",
+      "ihr": "findet",
+      "sie/Sie": "finden"
+    }
+  },
+  {
+    "verb": "kosten",
+    "translation": "costar",
+    "conjugations": {
+      "ich": "koste",
+      "du": "kostest",
+      "er/sie/es": "kostet",
+      "wir": "kosten",
+      "ihr": "kostet",
+      "sie/Sie": "kosten"
+    }
+  },
+  {
+    "verb": "wechseln",
+    "translation": "cambiar",
+    "conjugations": {
+      "ich": "wechsle",
+      "du": "wechselst",
+      "er/sie/es": "wechselt",
+      "wir": "wechseln",
+      "ihr": "wechselt",
+      "sie/Sie": "wechseln"
+    }
+  },
+  {
+    "verb": "essen",
+    "translation": "comer",
+    "conjugations": {
+      "ich": "esse",
+      "du": "isst",
+      "er/sie/es": "isst",
+      "wir": "essen",
+      "ihr": "esst",
+      "sie/Sie": "essen"
+    }
+  },
+  {
+    "verb": "trinken",
+    "translation": "beber",
+    "conjugations": {
+      "ich": "trinke",
+      "du": "trinkst",
+      "er/sie/es": "trinkt",
+      "wir": "trinken",
+      "ihr": "trinkt",
+      "sie/Sie": "trinken"
+    }
+  },
+  {
+    "verb": "mögen",
+    "translation": "gustar",
+    "conjugations": {
+      "ich": "mag",
+      "du": "magst",
+      "er/sie/es": "mag",
+      "wir": "mögen",
+      "ihr": "mögt",
+      "sie/Sie": "mögen"
+    }
+  },
+  {
+    "verb": "nehmen",
+    "translation": "tomar, coger",
+    "conjugations": {
+      "ich": "nehme",
+      "du": "nimmst",
+      "er/sie/es": "nimmt",
+      "wir": "nehmen",
+      "ihr": "nehmt",
+      "sie/Sie": "nehmen"
+    }
+  },
+  {
+    "verb": "schmecken",
+    "translation": "saber (de sabor), estar rico",
+    "conjugations": {
+      "ich": "schmecke",
+      "du": "schmeckst",
+      "er/sie/es": "schmeckt",
+      "wir": "schmecken",
+      "ihr": "schmeckt",
+      "sie/Sie": "schmecken"
+    }
+  },
+  {
+    "verb": "frühstücken",
+    "translation": "desayunar",
+    "conjugations": {
+      "ich": "frühstücke",
+      "du": "frühstückst",
+      "er/sie/es": "frühstückt",
+      "wir": "frühstücken",
+      "ihr": "frühstückt",
+      "sie/Sie": "frühstücken"
+    }
+  },
+  {
+    "verb": "waschen",
+    "translation": "lavar",
+    "conjugations": {
+      "ich": "wasche",
+      "du": "wäschst",
+      "er/sie/es": "wäscht",
+      "wir": "waschen",
+      "ihr": "wascht",
+      "sie/Sie": "waschen"
+    }
+  },
+  {
+    "verb": "schneiden",
+    "translation": "cortar",
+    "conjugations": {
+      "ich": "schneide",
+      "du": "schneidest",
+      "er/sie/es": "schneidet",
+      "wir": "schneiden",
+      "ihr": "schneidet",
+      "sie/Sie": "schneiden"
+    }
+  },
+  {
+    "verb": "grillen",
+    "translation": "hacer una barbacoa, asar a la parrilla",
+    "conjugations": {
+      "ich": "grille",
+      "du": "grillst",
+      "er/sie/es": "grillt",
+      "wir": "grillen",
+      "ihr": "grillt",
+      "sie/Sie": "grillen"
+    }
+  },
+  {
+    "verb": "probieren",
+    "translation": "probar",
+    "conjugations": {
+      "ich": "probiere",
+      "du": "probierst",
+      "er/sie/es": "probiert",
+      "wir": "probieren",
+      "ihr": "probiert",
+      "sie/Sie": "probieren"
+    }
+  },
+
+  
+
+  {
+    "verb": "schlafen",
+    "translation": "dormir",
+    "conjugations": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er/sie/es": "schläft",
+      "wir": "schlafen",
+      "ihr": "schlaft",
+      "sie/Sie": "schlafen"
+    }
+  },
+  {
+    "verb": "duschen",
+    "translation": "ducharse",
+    "conjugations": {
+      "ich": "dusche",
+      "du": "duschst",
+      "er/sie/es": "duscht",
+      "wir": "duschen",
+      "ihr": "duscht",
+      "sie/Sie": "duschen"
+    }
+  },
+  {
+    "verb": "besuchen",
+    "translation": "visitar",
+    "conjugations": {
+      "ich": "besuche",
+      "du": "besuchst",
+      "er/sie/es": "besucht",
+      "wir": "besuchen",
+      "ihr": "besucht",
+      "sie/Sie": "besuchen"
+    }
+  },
+  {
+    "verb": "treffen",
+    "translation": "encontrar(se), quedar con",
+    "conjugations": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er/sie/es": "trifft",
+      "wir": "treffen",
+      "ihr": "trefft",
+      "sie/Sie": "treffen"
+    }
+  },
+  {
+    "verb": "telefonieren",
+    "translation": "hablar por teléfono, telefonear",
+    "conjugations": {
+      "ich": "telefoniere",
+      "du": "telefonierst",
+      "er/sie/es": "telefoniert",
+      "wir": "telefonieren",
+      "ihr": "telefoniert",
+      "sie/Sie": "telefonieren"
+    }
+  },
+  {
+    "verb": "sitzen",
+    "translation": "estar sentado/a",
+    "conjugations": {
+      "ich": "sitze",
+      "du": "sitzt",
+      "er/sie/es": "sitzt",
+      "wir": "sitzen",
+      "ihr": "sitzt",
+      "sie/Sie": "sitzen"
+    }
+  },
+  {
+    "verb": "können",
+    "translation": "poder (capacidad)",
+    "conjugations": {
+      "ich": "kann",
+      "du": "kannst",
+      "er/sie/es": "kann",
+      "wir": "können",
+      "ihr": "könnt",
+      "sie/Sie": "können"
+    }
+  },
+  {
+    "verb": "müssen",
+    "translation": "tener que, deber",
+    "conjugations": {
+      "ich": "muss",
+      "du": "musst",
+      "er/sie/es": "muss",
+      "wir": "müssen",
+      "ihr": "müsst",
+      "sie/Sie": "müssen"
+    }
+  },
+  {
+    "verb": "wollen",
+    "translation": "querer",
+    "conjugations": {
+      "ich": "will",
+      "du": "willst",
+      "er/sie/es": "will",
+      "wir": "wollen",
+      "ihr": "wollt",
+      "sie/Sie": "wollen"
+    }
+  },
+  {
+    "verb": "tun",
+    "translation": "hacer",
+    "conjugations": {
+      "ich": "tue",
+      "du": "tust",
+      "er/sie/es": "tut",
+      "wir": "tun",
+      "ihr": "tut",
+      "sie/Sie": "tun"
+    }
+  },
+  {
+    "verb": "zu spät kommen",
+    "translation": "llegar tarde",
+    "conjugations": {
+      "ich": "komme zu spät",
+      "du": "kommst zu spät",
+      "er/sie/es": "kommt zu spät",
+      "wir": "kommen zu spät",
+      "ihr": "kommt zu spät",
+      "sie/Sie": "kommen zu spät"
+    }
+  },
+  {
+    "verb": "Geige spielen",
+    "translation": "tocar el violín",
+    "conjugations": {
+      "ich": "spiele Geige",
+      "du": "spielst Geige",
+      "er/sie/es": "spielt Geige",
+      "wir": "spielen Geige",
+      "ihr": "spielt Geige",
+      "sie/Sie": "spielen Geige"
+    }
+  },
+  {
+    "verb": "eine Party machen",
+    "translation": "hacer una fiesta",
+    "conjugations": {
+      "ich": "mache eine Party",
+      "du": "machst eine Party",
+      "er/sie/es": "macht eine Party",
+      "wir": "machen eine Party",
+      "ihr": "macht eine Party",
+      "sie/Sie": "machen eine Party"
+    }
   }
 ]

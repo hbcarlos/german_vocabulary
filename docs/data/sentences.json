@@ -48,5 +48,43 @@
 	{ "word": "ein Mal, zwei Mal, ...", "translation": "una vez, dos veces, ..." },
 	{ "word": "das erste/zweite/... Mal", "translation": "la primera/segunda/... vez" },
 	{ "word": "Vielen Dank!", "translation": "¡Muchas gracias!" },
-	{ "word": "okay", "translation": "vale, bien" }
+	{ "word": "okay", "translation": "vale, bien" },
+
+
+	
+	{ "word": "Das macht ... Euro, bitte.",         "translation": "Son ... euros, por favor." },
+	{ "word": "Können Sie wechseln, bitte?",        "translation": "¿Puede cambiar (dar cambio), por favor?" },
+	{ "word": "Entschuldigung, wo finde ich ...?",  "translation": "Perdone, ¿dónde encuentro ...?" },
+	{ "word": "Wo gibt es ...?",                    "translation": "¿Dónde hay ...?" },
+	{ "word": "Guten Appetit!",                     "translation": "¡Que aproveche!" },
+	{ "word": "Danke, gleichfalls.",                "translation": "Gracias, igualmente." },
+	{ "word": "Das Essen ist gleich fertig.",       "translation": "La comida está casi lista." },
+	{ "word": "Schmeckt’s?",                        "translation": "¿Está rico? / ¿Está bueno?" },
+
+
+	
+	{ "word": "Wie viel Uhr ist es?",                "translation": "¿Qué hora es?" },
+	{ "word": "Wie spät ist es?",                    "translation": "¿Qué hora es?" },
+	{ "word": "Es ist vier Uhr.",                    "translation": "Son las cuatro." },
+	{ "word": "Es ist Viertel vor vier.",            "translation": "Son las cuatro menos cuarto." },
+	{ "word": "Es ist Viertel nach vier.",           "translation": "Son las cuatro y cuarto." },
+	{ "word": "Es ist halb fünf.",                   "translation": "Son las cuatro y media." },
+	{ "word": "Es ist kurz vor vier.",               "translation": "Poco antes de las cuatro." },
+	{ "word": "Es ist kurz nach vier.",              "translation": "Poco después de las cuatro." },
+	{ "word": "Es ist zehn vor/nach ...",            "translation": "Son las ... menos/diez; las ... y diez." },
+
+	{ "word": "Hast du morgen Zeit?",                "translation": "¿Tienes tiempo mañana?" },
+	{ "word": "Auf Wiederhören.",                    "translation": "Hasta pronto (por teléfono)." },
+	{ "word": "Was kann ich für Sie tun?",           "translation": "¿Qué puedo hacer por usted?" },
+
+	{ "word": "Ich hätte gern einen Termin.",        "translation": "Quisiera pedir una cita." },
+	{ "word": "Haben Sie am ... einen Termin frei?", "translation": "¿Tiene libre una cita el ...?" },
+	{ "word": "Geht es am ... um ...?",              "translation": "¿Le va bien el ... a las ...?" },
+	{ "word": "Nein, das geht leider nicht.",        "translation": "No, por desgracia no es posible." },
+
+	{ "word": "Gute Idee!",                          "translation": "¡Buena idea!" },
+	{ "word": "liebe Grüße",                         "translation": "saludos cordiales, un saludo" },
+	{ "word": "Tut mir leid.",                       "translation": "Lo siento." },
+	{ "word": "Bitte entschuldigen Sie.",            "translation": "Disculpe, por favor." },
+	{ "word": "Macht nichts.",                       "translation": "No pasa nada." }
 ]

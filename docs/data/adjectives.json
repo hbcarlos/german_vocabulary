@@ -17,5 +17,26 @@
 	{ "word": "hoch", "translation": "alto (de altura)" },
 	{ "word": "schnell", "translation": "rápido" },
 
-	{ "word": "richtig", "translation": "correcto" }
+	{ "word": "richtig", "translation": "correcto" },
+
+	{ "word": "teuer", "translation": "caro" },
+	{ "word": "fertig", "translation": "listo, terminado" },
+	{ "word": "lecker", "translation": "rico, delicioso" },
+	{ "word": "süß", "translation": "dulce" },
+	{ "word": "frisch", "translation": "fresco" },
+	{ "word": "nett", "translation": "amable, simpático" },
+	{ "word": "gesund", "translation": "sano" },
+	{ "word": "wenig", "translation": "poco" },
+	{ "word": "wichtig", "translation": "importante" },
+
+
+	{ "word": "pünktlich",  "translation": "puntual" },
+	{ "word": "ledig",      "translation": "soltero/a" },
+	{ "word": "verheiratet","translation": "casado/a" },
+	{ "word": "krank",      "translation": "enfermo/a" },
+	{ "word": "süß",        "translation": "dulce, mono/a" },
+	{ "word": "willkommen", "translation": "bienvenido/a" },
+	{ "word": "cool",       "translation": "guay, genial" },
+	{ "word": "falsch",     "translation": "falso, incorrecto" },
+	{ "word": "schade",     "translation": "qué pena, lamentable" }
 ]
