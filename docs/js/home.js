@@ -2,8 +2,7 @@
 
 async function fetchData() {
   const dataSources = [
-    'adjectives', 'adverbs', 'nouns', 'numbers',
-    'prepositions', 'pronouns', 'sentences', 'verbs'
+    'nouns', 'sentences'
   ];
 
   const fetchPromises = dataSources.map(source =>
