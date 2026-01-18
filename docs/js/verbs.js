@@ -20,6 +20,7 @@ const inputs = {
 let verbs = [];
 let currentVerbIndex = 0;
 let randomMode = false;
+let checkMode = true;
 
 async function fetchVerbs() {
   try {
@@ -50,7 +51,10 @@ function displayVerb(index) {
     inputs[key].classList.remove('correct', 'incorrect');
     inputs[key].disabled = false;
   }
-  checkBtn.disabled = false;
+  
+  checkMode = true;
+  //checkBtn.disabled = false;
+  checkBtn.textContent = "Comprobar";
   showAnswersBtn.disabled = false;
 }
 
@@ -66,6 +70,11 @@ function nextVerb() {
     nextIndex = (currentVerbIndex + 1) % verbs.length;
   }
   displayVerb(nextIndex);
+}
+
+function handleCheckBtn() {
+  if (checkMode) checkAnswers();
+  else cleanAnswers();
 }
 
 function checkAnswers() {
@@ -94,7 +103,9 @@ function checkAnswers() {
   if (allCorrect) {
     resultsContainer.textContent = '¡Excelente! Todo correcto.';
     resultsContainer.className = 'result-correct';
-    checkBtn.disabled = true;
+    checkMode = false;
+    //checkBtn.disabled = true;
+    checkBtn.textContent = "Limpiar respuestas";
     showAnswersBtn.disabled = true;
     for (const pronoun in inputs) {
       inputs[pronoun].disabled = true;
@@ -103,6 +114,26 @@ function checkAnswers() {
     resultsContainer.textContent = 'Algunas respuestas son incorrectas. ¡Sigue intentando!';
     resultsContainer.className = 'result-incorrect';
   }
+}
+
+function cleanAnswers() {
+  if (currentVerbIndex < 0 || currentVerbIndex >= verbs.length) return;
+
+  for (const pronoun in inputs) {
+    inputs[pronoun].value = "";
+    inputs[pronoun].classList.remove('correct');
+    inputs[pronoun].classList.remove('incorrect');
+    inputs[pronoun].disabled = false;
+  }
+
+  translation.textContent = "";
+  resultsContainer.textContent = '';
+  resultsContainer.classList.remove('result-correct');
+  resultsContainer.classList.remove('result-incorrect');
+  checkMode = true;
+  //checkBtn.disabled = false;
+  checkBtn.textContent = "Comprobar";
+  showAnswersBtn.disabled = false;
 }
 
 function showAnswers() {
@@ -120,7 +151,10 @@ function showAnswers() {
   translation.textContent = currentVerb.translation;
   resultsContainer.textContent = 'Aquí están las respuestas correctas.';
   resultsContainer.className = '';
-  checkBtn.disabled = true;
+  
+  checkMode = false;
+  //checkBtn.disabled = true;
+  checkBtn.textContent = "Limpiar respuestas";
   showAnswersBtn.disabled = true;
 }
 
@@ -143,7 +177,7 @@ async function initializeApp() {
 }
 
 // Event Listeners
-checkBtn.addEventListener('click', checkAnswers);
+checkBtn.addEventListener('click', handleCheckBtn);
 showAnswersBtn.addEventListener('click', showAnswers);
 nextVerbBtn.addEventListener('click', nextVerb);
 randomBtn.addEventListener('click', () => setRandomMode(!randomMode));
