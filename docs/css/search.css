@@ -1,3 +1,19 @@
+.container-search {
+  height: calc(100vh-60px);
+  margin: 8px;
+}
+
+.flashcard-search {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 40px 50px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
 /* --- Buscador --- */
 .search-wrapper {
   max-width: 600px;
