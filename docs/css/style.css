@@ -132,6 +132,7 @@ button:not(:disabled):active {
   font-size: 0.9rem;
   opacity: 0.7;
   min-height: 1.1rem;
+  text-align: center;
 }
 
 .status {

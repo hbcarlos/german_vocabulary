@@ -1,6 +1,6 @@
 [
   {
-    "verb": "heißen",
+    "word": "heißen",
     "translation": "llamarse",
     "conjugations": {
       "ich": "heiße",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "verb": "sein",
+    "word": "sein",
     "translation": "ser, estar",
     "conjugations": {
       "ich": "bin",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "verb": "haben",
+    "word": "haben",
     "translation": "tener",
     "conjugations": {
       "ich": "habe",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "verb": "wohnen",
+    "word": "wohnen",
     "translation": "vivir",
     "conjugations": {
       "ich": "wohne",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "verb": "kommen",
+    "word": "kommen",
     "translation": "venir",
     "conjugations": {
       "ich": "komme",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "verb": "gehen",
+    "word": "gehen",
     "translation": "ir, caminar",
     "conjugations": {
       "ich": "gehe",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "verb": "lernen",
+    "word": "lernen",
     "translation": "aprender",
     "conjugations": {
       "ich": "lerne",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "verb": "sprechen",
+    "word": "sprechen",
     "translation": "hablar",
     "conjugations": {
       "ich": "spreche",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "verb": "sehen",
+    "word": "sehen",
     "translation": "ver",
     "conjugations": {
       "ich": "sehe",
@@ -111,7 +111,7 @@
 
 
   {
-    "verb": "buchstabieren",
+    "word": "buchstabieren",
     "translation": "deletrear",
     "conjugations": {
       "ich": "buchstabiere",
@@ -123,7 +123,7 @@
     }
   },
   {
-    "verb": "fragen",
+    "word": "fragen",
     "translation": "preguntar",
     "conjugations": {
       "ich": "frage",
@@ -135,7 +135,7 @@
     }
   },
   {
-    "verb": "hören",
+    "word": "hören",
     "translation": "escuchar, oír",
     "conjugations": {
       "ich": "höre",
@@ -147,7 +147,7 @@
     }
   },
   {
-    "verb": "lesen",
+    "word": "lesen",
     "translation": "leer",
     "conjugations": {
       "ich": "lese",
@@ -159,7 +159,7 @@
     }
   },
   {
-    "verb": "machen",
+    "word": "machen",
     "translation": "hacer",
     "conjugations": {
       "ich": "mache",
@@ -171,7 +171,7 @@
     }
   },
   {
-    "verb": "notieren",
+    "word": "notieren",
     "translation": "anotar",
     "conjugations": {
       "ich": "notiere",
@@ -183,7 +183,7 @@
     }
   },
   {
-    "verb": "raten",
+    "word": "raten",
     "translation": "adivinar",
     "conjugations": {
       "ich": "rate",
@@ -195,7 +195,7 @@
     }
   },
   {
-    "verb": "sagen",
+    "word": "sagen",
     "translation": "decir",
     "conjugations": {
       "ich": "sage",
@@ -207,7 +207,7 @@
     }
   },
   {
-    "verb": "sammeln",
+    "word": "sammeln",
     "translation": "coleccionar, reunir",
     "conjugations": {
       "ich": "sammle",
@@ -219,7 +219,7 @@
     }
   },
   {
-    "verb": "schreiben",
+    "word": "schreiben",
     "translation": "escribir",
     "conjugations": {
       "ich": "schreibe",
@@ -231,7 +231,7 @@
     }
   },
   {
-    "verb": "spielen",
+    "word": "spielen",
     "translation": "jugar",
     "conjugations": {
       "ich": "spiele",
@@ -243,7 +243,7 @@
     }
   },
   {
-    "verb": "zuordnen",
+    "word": "zuordnen",
     "translation": "relacionar, emparejar",
     "conjugations": {
       "ich": "ordne zu",
@@ -257,7 +257,7 @@
 
 
   {
-    "verb": "arbeiten",
+    "word": "arbeiten",
     "translation": "trabajar",
     "conjugations": {
       "ich": "arbeite",
@@ -269,7 +269,7 @@
     }
   },
   {
-    "verb": "joggen",
+    "word": "joggen",
     "translation": "correr, hacer footing",
     "conjugations": {
       "ich": "jogge",
@@ -281,7 +281,7 @@
     }
   },
   {
-    "verb": "schwimmen",
+    "word": "schwimmen",
     "translation": "nadar",
     "conjugations": {
       "ich": "schwimme",
@@ -293,7 +293,7 @@
     }
   },
   {
-    "verb": "fotografieren",
+    "word": "fotografieren",
     "translation": "fotografiar",
     "conjugations": {
       "ich": "fotografiere",
@@ -305,7 +305,7 @@
     }
   },
   {
-    "verb": "kochen",
+    "word": "kochen",
     "translation": "cocinar",
     "conjugations": {
       "ich": "koche",
@@ -317,7 +317,7 @@
     }
   },
   {
-    "verb": "reisen",
+    "word": "reisen",
     "translation": "viajar",
     "conjugations": {
       "ich": "reise",
@@ -329,7 +329,7 @@
     }
   },
   {
-    "verb": "singen",
+    "word": "singen",
     "translation": "cantar",
     "conjugations": {
       "ich": "singe",
@@ -341,7 +341,7 @@
     }
   },
   {
-    "verb": "tanzen",
+    "word": "tanzen",
     "translation": "bailar",
     "conjugations": {
       "ich": "tanze",
@@ -355,7 +355,7 @@
 
 
   {
-    "verb": "passen",
+    "word": "passen",
     "translation": "quedar bien, encajar",
     "conjugations": {
       "ich": "passe",
@@ -367,7 +367,7 @@
     }
   },
   {
-    "verb": "suchen",
+    "word": "suchen",
     "translation": "buscar",
     "conjugations": {
       "ich": "suche",
@@ -379,7 +379,7 @@
     }
   },
   {
-    "verb": "warten",
+    "word": "warten",
     "translation": "esperar",
     "conjugations": {
       "ich": "warte",
@@ -393,7 +393,7 @@
 
   
   {
-    "verb": "zeigen",
+    "word": "zeigen",
     "translation": "mostrar, indicar",
     "conjugations": {
       "ich": "zeige",
@@ -405,7 +405,7 @@
     }
   },
   {
-    "verb": "zeichnen",
+    "word": "zeichnen",
     "translation": "dibujar",
     "conjugations": {
       "ich": "zeichne",
@@ -417,7 +417,7 @@
     }
   },
   {
-    "verb": "finden",
+    "word": "finden",
     "translation": "encontrar; opinar",
     "conjugations": {
       "ich": "finde",
@@ -431,7 +431,7 @@
 
   
   {
-    "verb": "kaufen",
+    "word": "kaufen",
     "translation": "comprar",
     "conjugations": {
       "ich": "kaufe",
@@ -443,7 +443,7 @@
     }
   },
   {
-    "verb": "ein|kaufen",
+    "word": "ein|kaufen",
     "translation": "hacer la compra, ir de compras",
     "conjugations": {
       "ich": "kaufe ein",
@@ -455,7 +455,7 @@
     }
   },
   {
-    "verb": "brauchen",
+    "word": "brauchen",
     "translation": "necesitar",
     "conjugations": {
       "ich": "brauche",
@@ -467,7 +467,7 @@
     }
   },
   {
-    "verb": "möchten",
+    "word": "möchten",
     "translation": "querer, desear",
     "conjugations": {
       "ich": "möchte",
@@ -479,7 +479,7 @@
     }
   },
   {
-    "verb": "finden",
+    "word": "finden",
     "translation": "encontrar",
     "conjugations": {
       "ich": "finde",
@@ -491,7 +491,7 @@
     }
   },
   {
-    "verb": "kosten",
+    "word": "kosten",
     "translation": "costar",
     "conjugations": {
       "ich": "koste",
@@ -503,7 +503,7 @@
     }
   },
   {
-    "verb": "wechseln",
+    "word": "wechseln",
     "translation": "cambiar",
     "conjugations": {
       "ich": "wechsle",
@@ -515,7 +515,7 @@
     }
   },
   {
-    "verb": "essen",
+    "word": "essen",
     "translation": "comer",
     "conjugations": {
       "ich": "esse",
@@ -527,7 +527,7 @@
     }
   },
   {
-    "verb": "trinken",
+    "word": "trinken",
     "translation": "beber",
     "conjugations": {
       "ich": "trinke",
@@ -539,7 +539,7 @@
     }
   },
   {
-    "verb": "mögen",
+    "word": "mögen",
     "translation": "gustar",
     "conjugations": {
       "ich": "mag",
@@ -551,7 +551,7 @@
     }
   },
   {
-    "verb": "nehmen",
+    "word": "nehmen",
     "translation": "tomar, coger",
     "conjugations": {
       "ich": "nehme",
@@ -563,7 +563,7 @@
     }
   },
   {
-    "verb": "schmecken",
+    "word": "schmecken",
     "translation": "saber (de sabor), estar rico",
     "conjugations": {
       "ich": "schmecke",
@@ -575,7 +575,7 @@
     }
   },
   {
-    "verb": "frühstücken",
+    "word": "frühstücken",
     "translation": "desayunar",
     "conjugations": {
       "ich": "frühstücke",
@@ -587,7 +587,7 @@
     }
   },
   {
-    "verb": "waschen",
+    "word": "waschen",
     "translation": "lavar",
     "conjugations": {
       "ich": "wasche",
@@ -599,7 +599,7 @@
     }
   },
   {
-    "verb": "schneiden",
+    "word": "schneiden",
     "translation": "cortar",
     "conjugations": {
       "ich": "schneide",
@@ -611,7 +611,7 @@
     }
   },
   {
-    "verb": "grillen",
+    "word": "grillen",
     "translation": "hacer una barbacoa, asar a la parrilla",
     "conjugations": {
       "ich": "grille",
@@ -623,7 +623,7 @@
     }
   },
   {
-    "verb": "probieren",
+    "word": "probieren",
     "translation": "probar",
     "conjugations": {
       "ich": "probiere",
@@ -638,7 +638,7 @@
   
 
   {
-    "verb": "schlafen",
+    "word": "schlafen",
     "translation": "dormir",
     "conjugations": {
       "ich": "schlafe",
@@ -650,7 +650,7 @@
     }
   },
   {
-    "verb": "duschen",
+    "word": "duschen",
     "translation": "ducharse",
     "conjugations": {
       "ich": "dusche",
@@ -662,7 +662,7 @@
     }
   },
   {
-    "verb": "besuchen",
+    "word": "besuchen",
     "translation": "visitar",
     "conjugations": {
       "ich": "besuche",
@@ -674,7 +674,7 @@
     }
   },
   {
-    "verb": "treffen",
+    "word": "treffen",
     "translation": "encontrar(se), quedar con",
     "conjugations": {
       "ich": "treffe",
@@ -686,7 +686,7 @@
     }
   },
   {
-    "verb": "telefonieren",
+    "word": "telefonieren",
     "translation": "hablar por teléfono, telefonear",
     "conjugations": {
       "ich": "telefoniere",
@@ -698,7 +698,7 @@
     }
   },
   {
-    "verb": "sitzen",
+    "word": "sitzen",
     "translation": "estar sentado/a",
     "conjugations": {
       "ich": "sitze",
@@ -710,7 +710,7 @@
     }
   },
   {
-    "verb": "können",
+    "word": "können",
     "translation": "poder (capacidad)",
     "conjugations": {
       "ich": "kann",
@@ -722,7 +722,7 @@
     }
   },
   {
-    "verb": "müssen",
+    "word": "müssen",
     "translation": "tener que, deber",
     "conjugations": {
       "ich": "muss",
@@ -734,7 +734,7 @@
     }
   },
   {
-    "verb": "wollen",
+    "word": "wollen",
     "translation": "querer",
     "conjugations": {
       "ich": "will",
@@ -746,7 +746,7 @@
     }
   },
   {
-    "verb": "tun",
+    "word": "tun",
     "translation": "hacer",
     "conjugations": {
       "ich": "tue",
@@ -758,7 +758,7 @@
     }
   },
   {
-    "verb": "zu spät kommen",
+    "word": "zu spät kommen",
     "translation": "llegar tarde",
     "conjugations": {
       "ich": "komme zu spät",
@@ -770,7 +770,7 @@
     }
   },
   {
-    "verb": "Geige spielen",
+    "word": "Geige spielen",
     "translation": "tocar el violín",
     "conjugations": {
       "ich": "spiele Geige",
@@ -782,7 +782,7 @@
     }
   },
   {
-    "verb": "eine Party machen",
+    "word": "eine Party machen",
     "translation": "hacer una fiesta",
     "conjugations": {
       "ich": "mache eine Party",

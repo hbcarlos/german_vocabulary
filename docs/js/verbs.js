@@ -6,7 +6,8 @@ const showAnswersBtn = document.getElementById('show-answers-btn');
 const nextVerbBtn = document.getElementById('next-verb-btn');
 const randomBtn = document.getElementById('random-btn');
 const resultsContainer = document.getElementById('results-container');
-const translation = document.getElementById('translation')
+const translation = document.getElementById('translation');
+const counterElem = document.getElementById("counter");
 
 const inputs = {
   ich: document.getElementById('ich'),
@@ -41,7 +42,7 @@ function displayVerb(index) {
   
   currentVerbIndex = index;
   const verb = verbs[index];
-  verbDisplay.textContent = verb.verb;
+  verbDisplay.textContent = verb.word;
   resultsContainer.textContent = '';
 
   translation.textContent = '';
@@ -56,6 +57,8 @@ function displayVerb(index) {
   //checkBtn.disabled = false;
   checkBtn.textContent = "Comprobar";
   showAnswersBtn.disabled = false;
+  // Contador
+  counterElem.textContent = `Verbo ${index + 1} de ${verbs.length}`;
 }
 
 function nextVerb() {
