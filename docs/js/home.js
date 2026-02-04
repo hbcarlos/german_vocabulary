@@ -46,6 +46,7 @@ const showBtn = document.getElementById("show-btn");
 const prevBtn = document.getElementById("prev-btn");
 const nextBtn = document.getElementById("next-btn");
 const randomBtn = document.getElementById("random-btn");
+const spanishBtn = document.getElementById("spanish-btn");
 
 // Colores asociados a cada artículo
 const articleColors = {
@@ -57,9 +58,10 @@ const articleColors = {
 let words = [];       // se llenará con los JSON
 let currentIndex = 0;
 let randomMode = false;
+let spanishMode = false;
 
 function setButtonsEnabled(enabled) {
-  [showBtn, prevBtn, nextBtn, randomBtn].forEach(btn => {
+  [showBtn, prevBtn, nextBtn, randomBtn, spanishBtn].forEach(btn => {
     btn.disabled = !enabled;
   });
 }
@@ -68,10 +70,16 @@ function renderCard(index) {
   const item = words[index];
   if (!item) return;
 
-  wordElem.textContent = item.word || "(sin palabra)";
+  if (spanishMode) {
+    wordElem.textContent = item.translation || "(sin palabra)";
+    translationElem.textContent = item.word || "";
+  } else {
+    wordElem.textContent = item.word || "(sin palabra)";
+    translationElem.textContent = item.translation || "";
+  }
+  
   articleElem.textContent = item.article || "";
   pluralElem.textContent = item.plural || "";
-  translationElem.textContent = item.translation || "";
 
   // Ocultamos la solución y restauramos color base
   solutionElem.style.display = "none";
@@ -132,6 +140,13 @@ function setRandomMode(on) {
   randomBtn.classList.toggle("active", randomMode);
 }
 
+function setSpanishMode(on) {
+  spanishMode = on;
+  spanishBtn.textContent = randomMode ? "Español" : "Alemán";
+  spanishBtn.classList.toggle("active", spanishMode);
+  renderCard(currentIndex);
+}
+
 // ------ Inicialización asíncrona ------
 
 async function initializeApp() {
@@ -168,6 +183,10 @@ nextBtn.addEventListener("click", nextWord);
 
 randomBtn.addEventListener("click", () => {
   setRandomMode(!randomMode);
+});
+
+spanishBtn.addEventListener("click", () => {
+  setSpanishMode(!spanishMode);
 });
 
 document.addEventListener("DOMContentLoaded", initializeApp);

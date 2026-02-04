@@ -125,6 +125,7 @@ button:not(:disabled):active {
 
 .translation {
   font-style: italic;
+  font-weight: 700;
 }
 
 .counter {
