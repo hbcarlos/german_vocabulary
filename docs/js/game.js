@@ -8,7 +8,6 @@ const resultsContainer = document.getElementById('results-container');
 const pronoun = document.getElementById('pronoun');
 const conjugation = document.getElementById('conjugation');
 const translation = document.getElementById('translation');
-const counterElem = document.getElementById("counter");
 
 let CONJUGATIONS = ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"];
 
@@ -49,8 +48,6 @@ function displayVerb(index, conj) {
   //checkBtn.disabled = false;
   checkBtn.textContent = "Comprobar";
   showAnswersBtn.disabled = false;
-  // Contador
-  counterElem.textContent = `Verbo ${index + 1} de ${verbs.length}`;
 }
 
 
