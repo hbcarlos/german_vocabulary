@@ -1,7 +1,9 @@
 // ------ Carga de datos desde JSON ------
 
 async function fetchData() {
-  const dataSources = ['nouns'];
+  const dataSources = [
+    'sentences'
+  ];
 
   const fetchPromises = dataSources.map(source =>
     fetch(`./data/${source}.json`)
@@ -12,22 +14,7 @@ async function fetchData() {
       })
   );
 
-  const basicsPromise = fetch('./data/basics.json')
-    .then(res => res.json())
-    .then(d => [
-      ...(d.days || []),
-      ...(d.month || []),
-      ...(d.seasons || []),
-      ...(d.colors || []),
-      ...(d.countries || []),
-      ...(d.languages || [])
-    ])
-    .catch(err => {
-      console.error('Error loading basics', err);
-      return [];
-    });
-
-  const allData = await Promise.all([...fetchPromises, basicsPromise]);
+  const allData = await Promise.all([...fetchPromises]);
   return allData.flat();
 }
 
@@ -36,8 +23,6 @@ async function fetchData() {
 const card = document.getElementById("card");
 const wordElem = document.getElementById("word");
 const solutionElem = document.getElementById("solution");
-const articleElem = document.getElementById("article");
-const pluralElem = document.getElementById("plural");
 const translationElem = document.getElementById("translation");
 const counterElem = document.getElementById("counter");
 const statusElem = document.getElementById("status");
@@ -69,7 +54,6 @@ function renderCard(index) {
   if (!item) return;
 
   wordElem.textContent = item.word || "(sin palabra)";
-  articleElem.textContent = item.article || "";
   translationElem.textContent = item.translation || "";
 
   // Ocultamos la solución y restauramos color base
