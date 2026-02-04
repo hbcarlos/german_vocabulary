@@ -29,7 +29,7 @@
 .form-row label {
   font-weight: 500;
   width: 80px; /* Fixed width for alignment */
-  text-align: right;
+  text-align: left;
   color: #555;
 }
 

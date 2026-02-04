@@ -12,34 +12,15 @@
   <!-- El contenedor de la barra de navegación se llenará dinámicamente -->
   <div id="navbar-container"></div>
 
-  <div class="container page-container">
-    <div id="game-container">
+  <div class="container">
+    <div class="flashcard" id="card">
+      <div id="game-container">
       <div class="verb-display" id="verb-display">...</div>
       
       <div class="conjugation-form">
         <div class="form-row">
-          <label for="ich">ich</label>
-          <input type="text" id="ich" autocomplete="off">
-        </div>
-        <div class="form-row">
-          <label for="du">du</label>
-          <input type="text" id="du" autocomplete="off">
-        </div>
-        <div class="form-row">
-          <label for="er-sie-es">er/sie/es</label>
-          <input type="text" id="er-sie-es" autocomplete="off">
-        </div>
-        <div class="form-row">
-          <label for="wir">wir</label>
-          <input type="text" id="wir" autocomplete="off">
-        </div>
-        <div class="form-row">
-          <label for="ihr">ihr</label>
-          <input type="text" id="ihr" autocomplete="off">
-        </div>
-        <div class="form-row">
-          <label for="sie-Sie">sie/Sie</label>
-          <input type="text" id="sie-Sie" autocomplete="off">
+          <label id="pronoun"></label>
+          <input id="conjugation" type="text" autocomplete="off">
         </div>
         <div class="form-row">
           <label>Traducción:</label>
@@ -53,14 +34,13 @@
       <div class="buttons">
         <button id="check-btn">Comprobar</button>
         <button id="show-answers-btn">Mostrar</button>
-        <button id="random-btn" class="secondary">Random: OFF</button>
-        <button id="prev-verb-btn" class="secondary">Anterior</button>
         <button id="next-verb-btn" class="secondary">Siguiente</button>
       </div>
+    </div>
     </div>
   </div>
 
   <script src="js/main.js"></script>
-  <script src="js/verbs.js"></script>
+  <script src="js/game.js"></script>
 </body>
 </html>
