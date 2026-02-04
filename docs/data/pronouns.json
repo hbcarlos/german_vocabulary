@@ -12,14 +12,14 @@
     ],
 
     "posesivos": [
-        { "word": "mein", "translation": "mi / mío" },
-        { "word": "dein", "translation": "tu / tuyo" },
-        { "word": "sein", "translation": "su (de él/neutro)" },
-        { "word": "ihr", "translation": "su (de ella)" },
-        { "word": "unser", "translation": "nuestro" },
-        { "word": "euer", "translation": "vuestro" },
-        { "word": "ihr", "translation": "su (de ellos/as)" },
-        { "word": "Ihr", "translation": "su (de usted/es)" }
+        { "word": "mein/meine", "translation": "mi / mío" },
+        { "word": "dein/deine", "translation": "tu / tuyo" },
+        { "word": "sein/seine", "translation": "su (de él/neutro)" },
+        { "word": "ihr/ihre", "translation": "su (de ella)" },
+        { "word": "unser/unsere", "translation": "nuestro" },
+        { "word": "euer/eure", "translation": "vuestro" },
+        { "word": "ihr/ihre", "translation": "su (de ellos/as)" },
+        { "word": "Ihr/Ihre", "translation": "su (de usted/es)" }
     ],
 
     "reflexivos": [
