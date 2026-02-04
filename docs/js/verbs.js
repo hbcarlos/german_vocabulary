@@ -3,6 +3,7 @@
 const verbDisplay = document.getElementById('verb-display');
 const checkBtn = document.getElementById('check-btn');
 const showAnswersBtn = document.getElementById('show-answers-btn');
+const prevVerbBtn = document.getElementById('prev-verb-btn');
 const nextVerbBtn = document.getElementById('next-verb-btn');
 const randomBtn = document.getElementById('random-btn');
 const resultsContainer = document.getElementById('results-container');
@@ -60,6 +61,25 @@ function displayVerb(index) {
   // Contador
   counterElem.textContent = `Verbo ${index + 1} de ${verbs.length}`;
 }
+
+function prevVerb() {
+  if (!verbs.length) return;
+
+  let nextIndex;
+  if (randomMode) {
+    do {
+      nextIndex = Math.floor(Math.random() * verbs.length);
+    } while (verbs.length > 1 && nextIndex === currentVerbIndex);
+  } else {
+    if (currentVerbIndex == 0) {
+      nextIndex = verbs.length -1;
+    } else {
+      nextIndex = (currentVerbIndex - 1) % verbs.length;
+    }
+  }
+  displayVerb(nextIndex);
+}
+
 
 function nextVerb() {
   if (!verbs.length) return;
@@ -174,6 +194,7 @@ async function initializeApp() {
   } else {
     checkBtn.disabled = true;
     showAnswersBtn.disabled = true;
+    prevVerbBtn.disabled = true;
     nextVerbBtn.disabled = true;
     randomBtn.disabled = true;
   }
@@ -182,6 +203,7 @@ async function initializeApp() {
 // Event Listeners
 checkBtn.addEventListener('click', handleCheckBtn);
 showAnswersBtn.addEventListener('click', showAnswers);
+prevVerbBtn.addEventListener('click', prevVerb);
 nextVerbBtn.addEventListener('click', nextVerb);
 randomBtn.addEventListener('click', () => setRandomMode(!randomMode));
 

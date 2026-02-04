@@ -45,6 +45,7 @@ const counterElem = document.getElementById("counter");
 const statusElem = document.getElementById("status");
 
 const showBtn = document.getElementById("show-btn");
+const prevBtn = document.getElementById("prev-btn");
 const nextBtn = document.getElementById("next-btn");
 const randomBtn = document.getElementById("random-btn");
 
@@ -60,7 +61,7 @@ let currentIndex = 0;
 let randomMode = false;
 
 function setButtonsEnabled(enabled) {
-  [showBtn, nextBtn, randomBtn].forEach(btn => {
+  [showBtn, prevBtn, nextBtn, randomBtn].forEach(btn => {
     btn.disabled = !enabled;
   });
 }
@@ -92,20 +93,37 @@ function showSolution() {
   card.style.backgroundColor = color;
 }
 
+function prevWord() {
+  if (!words.length) return;
+
+  let nextIndex;
+  if (randomMode) {
+    do {
+      nextIndex = Math.floor(Math.random() * words.length);
+    } while (words.length > 1 && nextIndex === currentIndex);
+  } else {
+    if (currentIndex == 0) {
+      nextIndex = words.length -1;
+    } else {
+      nextIndex = (currentIndex - 1) % words.length;
+    }
+  }
+  currentIndex = nextIndex;
+  renderCard(currentIndex);
+}
+
 function nextWord() {
   if (!words.length) return;
 
+  let nextIndex;
   if (randomMode) {
-    let newIndex = currentIndex;
-    if (words.length > 1) {
-      while (newIndex === currentIndex) {
-        newIndex = Math.floor(Math.random() * words.length);
-      }
-    }
-    currentIndex = newIndex;
+    do {
+      nextIndex = Math.floor(Math.random() * words.length);
+    } while (words.length > 1 && nextIndex === currentIndex);
   } else {
-    currentIndex = (currentIndex + 1) % words.length;
+    nextIndex = (currentIndex + 1) % words.length;
   }
+  currentIndex = nextIndex;
   renderCard(currentIndex);
 }
 
@@ -146,6 +164,7 @@ async function initializeApp() {
 
 // Eventos
 showBtn.addEventListener("click", showSolution);
+prevBtn.addEventListener("click", prevWord);
 nextBtn.addEventListener("click", nextWord);
 
 randomBtn.addEventListener("click", () => {
