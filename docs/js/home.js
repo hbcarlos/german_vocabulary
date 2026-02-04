@@ -70,6 +70,7 @@ function renderCard(index) {
 
   wordElem.textContent = item.word || "(sin palabra)";
   articleElem.textContent = item.article || "";
+  pluralElem.textContent = item.plural || "";
   translationElem.textContent = item.translation || "";
 
   // Ocultamos la solución y restauramos color base
