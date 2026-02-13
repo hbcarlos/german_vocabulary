@@ -86,5 +86,21 @@
 	{ "word": "liebe Grüße",                         "translation": "saludos cordiales, un saludo" },
 	{ "word": "Tut mir leid.",                       "translation": "Lo siento." },
 	{ "word": "Bitte entschuldigen Sie.",            "translation": "Disculpe, por favor." },
-	{ "word": "Macht nichts.",                       "translation": "No pasa nada." }
+	{ "word": "Macht nichts.",                       "translation": "No pasa nada." },
+
+
+
+
+
+
+
+
+	{ "word": "Was möchten Sie trinken/bestellen?", "translation": "¿Qué desea beber/pedir?" },
+	{ "word": "Zusammen, bitte!", "translation": "¡Juntos, por favor! (Pagar junto)" },
+	{ "word": "Stimmt so.", "translation": "Quédese con el cambio." },
+	{ "word": "Es war super / schön / nicht so gut.", "translation": "Estuvo genial / bonito / no tan bien." },
+	{ "word": "Warum nicht?", "translation": "¿Por qué no?" },
+	{ "word": "Alles klar?", "translation": "¿Todo claro? / ¿Todo bien?" },
+	{ "word": "Wann denn?", "translation": "¿Cuándo entonces?" },
+	{ "word": "Klingt gut.", "translation": "Suena bien." }
 ]

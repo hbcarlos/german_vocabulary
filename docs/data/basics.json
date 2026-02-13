@@ -70,5 +70,28 @@
 
 	"languages": [
 		{ "word": "Deutsch", "translation": "alemán" }
+	],
+
+	"ordinales": [
+		{ "word": "erste", "translation": "primero" },
+		{ "word": "zweite", "translation": "segundo" },
+		{ "word": "dritte", "translation": "tercero" },
+		{ "word": "vierte", "translation": "cuarto" },
+		{ "word": "fünfte", "translation": "quinto" },
+		{ "word": "sechste", "translation": "sexto" },
+		{ "word": "siebte", "translation": "séptimo" },
+		{ "word": "achte", "translation": "octavo" },
+		{ "word": "neunte", "translation": "noveno" },
+		{ "word": "zehnte", "translation": "décimo" },
+		{ "word": "elfte", "translation": "undécimo" },
+		{ "word": "zwölfte", "translation": "duodécimo" },
+		{ "word": "dreizehnte", "translation": "decimotercero" },
+		{ "word": "vierzehnte", "translation": "decimocuarto" },
+		{ "word": "fünfzehnte", "translation": "decimoquinto" },
+		{ "word": "zwanzigste", "translation": "vigésimo" },
+		{ "word": "einundzwanzigste", "translation": "vigesimoprimero" },
+		{ "word": "zweiundzwanzigste", "translation": "vigesimosegundo" },
+		{ "word": "dreißigste", "translation": "trigésimo" },
+		{ "word": "einunddreißigste", "translation": "trigesimoprimero" }
 	]
 }

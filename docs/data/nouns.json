@@ -317,5 +317,57 @@
 	{ "word": "Hund",          "plural": "Hunde",          "article": "der",  "translation": "perro" },
 	{ "word": "Idee",          "plural": "Ideen",          "article": "die",  "translation": "idea" },
 	{ "word": "Problem",       "plural": "Probleme",       "article": "das",  "translation": "problema" },
-	{ "word": "Praxis",        "plural": "Praxen",         "article": "die",  "translation": "consulta, clínica" }
+	{ "word": "Praxis",        "plural": "Praxen",         "article": "die",  "translation": "consulta, clínica" },
+
+
+
+
+
+
+
+
+
+
+	{ "word": "Ausflug", "plural": "Ausflüge", "article": "der", "translation": "excursión" },
+	{ "word": "Schnitzel", "plural": "Schnitzel", "article": "das", "translation": "escalope" },
+	{ "word": "Tomatensuppe", "plural": "Tomatensuppen", "article": "die", "translation": "sopa de tomate" },
+	{ "word": "Sandwich", "plural": "Sandwiches", "article": "das", "translation": "sándwich" },
+	{ "word": "Durst", "plural": "", "article": "der", "translation": "sed" },
+	{ "word": "Hunger", "plural": "", "article": "der", "translation": "hambre" },
+	{ "word": "Fahrradtour", "plural": "Fahrradtouren", "article": "die", "translation": "excursión en bicicleta" },
+	{ "word": "Picknick", "plural": "Picknicks", "article": "das", "translation": "pícnic" },
+	{ "word": "Fest", "plural": "Feste", "article": "das", "translation": "fiesta" },
+	{ "word": "Geburtstag", "plural": "Geburtstage", "article": "der", "translation": "cumpleaños" },
+	{ "word": "Speisekarte", "plural": "Speisekarten", "article": "die", "translation": "carta, menú" },
+	{ "word": "Bestellung", "plural": "Bestellungen", "article": "die", "translation": "pedido" },
+	{ "word": "Rechnung", "plural": "Rechnungen", "article": "die", "translation": "cuenta, factura" },
+	{ "word": "Trinkgeld", "plural": "", "article": "das", "translation": "propina" },
+	{ "word": "Geschenk", "plural": "Geschenke", "article": "das", "translation": "regalo" },
+	{ "word": "Datum", "plural": "Daten", "article": "das", "translation": "fecha" },
+	{ "word": "Überraschung", "plural": "Überraschungen", "article": "die", "translation": "sorpresa" },
+	{ "word": "Gabel", "plural": "Gabeln", "article": "die", "translation": "tenedor" },
+	{ "word": "Messer", "plural": "Messer", "article": "das", "translation": "cuchillo" },
+	{ "word": "Löffel", "plural": "Löffel", "article": "der", "translation": "cuchara" },
+	{ "word": "Glas", "plural": "Gläser", "article": "das", "translation": "vaso, copa" },
+	{ "word": "Tasse", "plural": "Tassen", "article": "die", "translation": "taza" },
+	{ "word": "Teller", "plural": "Teller", "article": "der", "translation": "plato" },
+	{ "word": "Serviette", "plural": "Servietten", "article": "die", "translation": "servilleta" },
+	{ "word": "Mail", "plural": "Mails", "article": "die", "translation": "correo electrónico" },
+	{ "word": "Betreff", "plural": "Betreffe", "article": "der", "translation": "asunto" },
+	{ "word": "Anrede", "plural": "Anreden", "article": "die", "translation": "saludo, encabezamiento" },
+	{ "word": "Schorle", "plural": "Schorlen", "article": "die", "translation": "zumo con agua con gas" },
+	{ "word": "Eis", "plural": "", "article": "das", "translation": "helado, hielo" },
+	{ "word": "Salami", "plural": "Salamis", "article": "die", "translation": "salami" },
+	{ "word": "Kneipe", "plural": "Kneipen", "article": "die", "translation": "bar, pub" },
+	{ "word": "Kaffeehaus", "plural": "Kaffeehäuser", "article": "das", "translation": "cafetería" },
+	{ "word": "Lokal", "plural": "Lokale", "article": "das", "translation": "local, restaurante" },
+	{ "word": "Biergarten", "plural": "Biergärten", "article": "der", "translation": "terraza de cervecería" },
+	{ "word": "Bank", "plural": "Bänke", "article": "die", "translation": "banco (asiento)" },
+	{ "word": "Selbstbedienung", "plural": "", "article": "die", "translation": "autoservicio" },
+	{ "word": "Programm", "plural": "Programme", "article": "das", "translation": "programa" },
+	{ "word": "Treffpunkt", "plural": "Treffpunkte", "article": "der", "translation": "punto de encuentro" },
+	{ "word": "Eintritt", "plural": "Eintritte", "article": "der", "translation": "entrada (acceso)" },
+	{ "word": "Anmeldung", "plural": "Anmeldungen", "article": "die", "translation": "inscripción" },
+	{ "word": "Karte", "plural": "Karten", "article": "die", "translation": "tarjeta, entrada" },
+	{ "word": "Spielplatz", "plural": "Spielplätze", "article": "der", "translation": "parque infantil" }
 ]

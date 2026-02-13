@@ -20,7 +20,8 @@ async function fetchData() {
       ...(d.seasons || []),
       ...(d.colors || []),
       ...(d.countries || []),
-      ...(d.languages || [])
+      ...(d.languages || []),
+      ...(d.ordinales || [])
     ])
     .catch(err => {
       console.error('Error loading basics', err);

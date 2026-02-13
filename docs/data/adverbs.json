@@ -14,6 +14,7 @@
 
 	{ "word": "richtig", "type": "Gradadverb", "translation": "realmente/bastante bien" },
 	{ "word": "so", "type": "Gradadverb", "translation": "así, tan, tanto" },
+	{ "word": "besonders", "type": "Gradadverb", "translation": "especialmente" },
 
 	{ "word": "also", "type": "Konjunktionaladverb", "translation": "entonces, pues" },
 
@@ -26,6 +27,16 @@
 	{ "word": "nachts", "type": "Zeitadverb", "translation": "por la noche" },
 
 	{ "word": "vielleicht", "type": "Modaladverb", "translation": "quizá, tal vez" },
+	{ "word": "zusammen", "type": "Modaladverb", "translation": "juntos" },
+	{ "word": "getrennt", "type": "Modaladverb", "translation": "separados" },
 
-	{ "word": "morgen", "type": "Zeitadverb", "translation": "mañana (tiempo)" }
+	{ "word": "morgen", "type": "Zeitadverb", "translation": "mañana (tiempo)" },
+
+
+	{ "word": "draußen", "type": "Lokaladverb", "translation": "afuera" },
+	{ "word": "überall", "type": "Lokaladverb", "translation": "en todas partes" },
+
+	{ "word": "hoffentlich", "type": "Kommentaradverb", "translation": "ojalá" },
+	
+	{ "word": "wieder", "type": "Temporaladverb", "translation": "otra vez, de nuevo" }
 ]

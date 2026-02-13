@@ -38,5 +38,14 @@
 	{ "word": "willkommen", "translation": "bienvenido/a" },
 	{ "word": "cool",       "translation": "guay, genial" },
 	{ "word": "falsch",     "translation": "falso, incorrecto" },
-	{ "word": "schade",     "translation": "qué pena, lamentable" }
+	{ "word": "schade",     "translation": "qué pena, lamentable" },
+
+
+
+	{ "word": "geöffnet", "translation": "abierto" },
+	{ "word": "kalt", "translation": "frío" },
+	{ "word": "warm", "translation": "caliente, cálido" },
+	{ "word": "typisch", "translation": "típico" },
+	{ "word": "verboten", "translation": "prohibido" },
+	{ "word": "früh", "translation": "temprano" }
 ]
