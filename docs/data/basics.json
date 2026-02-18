@@ -1,10 +1,15 @@
 {
 	"questions": [
-		{ "word": "wie", "translation": "cómo" },
-		{ "word": "wer", "translation": "quién" },
-		{ "word": "wo", "translation": "dónde" },
-		{ "word": "woher", "translation": "de dónde" },
-		{ "word": "wann", "translation": "cuándo" }
+		{ "word": "wie", "translation": "¿cómo?" },
+		{ "word": "was", "translation": "¿qué?" },
+		{ "word": "wann", "translation": "¿cuando?" },
+		{ "word": "wo", "translation": "¿donde?" },
+		{ "word": "woher", "translation": "¿de dónde?" },
+		{ "word": "wer", "translation": "¿quién?" },
+		{ "word": "wen", "translation": "¿a quién? (acusativo)" },
+		{ "word": "wem", "translation": "¿a quién? (dativo)" },
+		{ "word": "wessen", "translation": "¿de quién?" },
+		{ "word": "welcher", "translation": "¿cuál?" }
 	],
 
 	"days": [
