@@ -84,15 +84,15 @@
   background-color: #fff;
   color: #444;
   font-weight: 700;
-  width: 40%; /* Ancho columna alemán */
-}
-
-.pronoun-accordion tr:last-child td {
-  border-bottom: none;
+  /* width: 40%; /* Ancho columna alemán */
 }
 
 .pronoun-accordion tr:hover td {
   background-color: #fafafa;
+}
+
+.subtitle {
+  margin-left: 20px;
 }
 
 /* Pequeña animación de entrada */
