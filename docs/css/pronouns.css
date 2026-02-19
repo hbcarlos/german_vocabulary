@@ -15,6 +15,7 @@
 
 .pronoun-accordion {
   width: 100%;
+  min-width: 410px;
   max-width: 800px; /* Ancho máximo para que no se vea enorme en PC */
   margin: 0 auto;
   margin-bottom: 2rem;
